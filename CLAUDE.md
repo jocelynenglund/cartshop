@@ -1,8 +1,8 @@
 # CartShop — Claude notes
 
 Event-sourced cart sample on **Marten + Wolverine + Aspire + Angular 21**.
-Built as a teaching/template companion to the FileEventStore-based apps
-(ChoreMonkey, getsafe, event-store-api).
+Built as a teaching reference for the Dynamic Consistency Boundary (DCB)
+pattern.
 
 ## Architectural rules
 
