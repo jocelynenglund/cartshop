@@ -1,0 +1,1739 @@
+{
+  "boards": {
+    "a6b8bd18-f2bc-43be-9edd-2d0749d9dae1": {
+      "name": "CartShop - DCB Inventory"
+    }
+  },
+  "nodes": {
+    "a6b8bd18-f2bc-43be-9edd-2d0749d9dae1": {
+      "nodes": [
+        {
+          "id": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "type": "timeline",
+          "position": {
+            "x": 562.3915405273438,
+            "y": 393.146728515625
+          },
+          "data": {},
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "c2e76b6d-bfb5-41df-9d8e-ca25c0ba99ff",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "a5bda0"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "b91b0d65-ed92-4179-9a14-44e52891f421",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "a34612"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "d78e9314-4a07-45b3-a282-afb8c1b6d387",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "95dd46"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "5ea8300d-43a4-411a-bde9-b056c818b027",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "2b15df"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "d0c88f0f-9c3a-4810-aa82-dc36842b5a78",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "cf4bab"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "bf377ab4-e235-4b30-8f0d-9c7962fc3411",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "0edb42"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "b8bbdb63-767d-4ad7-933b-022da9682f91",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "6109a2"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "ab4f2ce3-57af-43d9-893b-134de9469661",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "86d5c6"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "aed41d"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "ee6b976a-56a8-46c0-a165-cb832b976b4f",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "a187ab"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "57606944-3014-4b26-84da-aea278f26c3b",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "317ecf"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "fc0e8b"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "332a23ea-e755-490e-9fbe-27565a8b002c",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "9fc31f"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "5e7d40d9-a216-4517-b4f8-c8c9b132479f",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "6d47c1"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "d61ca2"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "47e49524-ba47-43b7-a7b6-0fe6b0b49748",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "53d6d8"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "53bfda9e-87be-4ed3-96af-5c994df8daa7",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "902062"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "f06a1ea4-84a3-4fe9-9e9f-e386827543f9",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "e3dfc3"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "df0fac35-1910-42d6-8e3f-bc85d5f6ea36",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "9476f7"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "7633188f-f8d0-4e73-b1d6-403cc938136b",
+          "type": "sticky_note",
+          "data": {
+            "metaHash": "0d9e38"
+          },
+          "parentId": "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff",
+          "zIndex": 9999,
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "780e65cb-ac10-4b09-a67f-ae3218c57251",
+          "source": "c2e76b6d-bfb5-41df-9d8e-ca25c0ba99ff",
+          "target": "bf377ab4-e235-4b30-8f0d-9c7962fc3411",
+          "start": {
+            "item": "c2e76b6d-bfb5-41df-9d8e-ca25c0ba99ff"
+          },
+          "end": {
+            "item": "bf377ab4-e235-4b30-8f0d-9c7962fc3411"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "0cf09b30-91fa-4ac6-b931-a66da7dd9650",
+          "source": "b91b0d65-ed92-4179-9a14-44e52891f421",
+          "target": "b8bbdb63-767d-4ad7-933b-022da9682f91",
+          "start": {
+            "item": "b91b0d65-ed92-4179-9a14-44e52891f421"
+          },
+          "end": {
+            "item": "b8bbdb63-767d-4ad7-933b-022da9682f91"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "167fca5a-1d23-40d8-b0b3-3bfd226b3cc7",
+          "source": "d78e9314-4a07-45b3-a282-afb8c1b6d387",
+          "target": "ab4f2ce3-57af-43d9-893b-134de9469661",
+          "start": {
+            "item": "d78e9314-4a07-45b3-a282-afb8c1b6d387"
+          },
+          "end": {
+            "item": "ab4f2ce3-57af-43d9-893b-134de9469661"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "79d0e458-7f97-419c-826e-9bf9b1d14b26",
+          "source": "5ea8300d-43a4-411a-bde9-b056c818b027",
+          "target": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef",
+          "start": {
+            "item": "5ea8300d-43a4-411a-bde9-b056c818b027"
+          },
+          "end": {
+            "item": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "ea698327-d9b6-4289-8e10-7e57aa7b6055",
+          "source": "d0c88f0f-9c3a-4810-aa82-dc36842b5a78",
+          "target": "ee6b976a-56a8-46c0-a165-cb832b976b4f",
+          "start": {
+            "item": "d0c88f0f-9c3a-4810-aa82-dc36842b5a78"
+          },
+          "end": {
+            "item": "ee6b976a-56a8-46c0-a165-cb832b976b4f"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "924d15a5-db62-4d7e-8391-c19f935bc98c",
+          "source": "bf377ab4-e235-4b30-8f0d-9c7962fc3411",
+          "target": "53bfda9e-87be-4ed3-96af-5c994df8daa7",
+          "start": {
+            "item": "bf377ab4-e235-4b30-8f0d-9c7962fc3411"
+          },
+          "end": {
+            "item": "53bfda9e-87be-4ed3-96af-5c994df8daa7"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "1034e30d-8ea1-4f80-b881-1656b44811df",
+          "source": "b8bbdb63-767d-4ad7-933b-022da9682f91",
+          "target": "332a23ea-e755-490e-9fbe-27565a8b002c",
+          "start": {
+            "item": "b8bbdb63-767d-4ad7-933b-022da9682f91"
+          },
+          "end": {
+            "item": "332a23ea-e755-490e-9fbe-27565a8b002c"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "31bd6a88-22b1-4c49-baa2-d09507f9ada6",
+          "source": "ab4f2ce3-57af-43d9-893b-134de9469661",
+          "target": "5e7d40d9-a216-4517-b4f8-c8c9b132479f",
+          "start": {
+            "item": "ab4f2ce3-57af-43d9-893b-134de9469661"
+          },
+          "end": {
+            "item": "5e7d40d9-a216-4517-b4f8-c8c9b132479f"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "8818acfe-a38e-4230-8186-6bb28ddf8c42",
+          "source": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef",
+          "target": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723",
+          "start": {
+            "item": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef"
+          },
+          "end": {
+            "item": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "227d6da8-60ad-43d7-b574-974488cefbef",
+          "source": "ee6b976a-56a8-46c0-a165-cb832b976b4f",
+          "target": "47e49524-ba47-43b7-a7b6-0fe6b0b49748",
+          "start": {
+            "item": "ee6b976a-56a8-46c0-a165-cb832b976b4f"
+          },
+          "end": {
+            "item": "47e49524-ba47-43b7-a7b6-0fe6b0b49748"
+          },
+          "sourceHandle": "source-bottom",
+          "targetHandle": "target-top",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "8a3bba42-aa48-481b-9fb1-b703553a7a6d",
+          "source": "53bfda9e-87be-4ed3-96af-5c994df8daa7",
+          "target": "57606944-3014-4b26-84da-aea278f26c3b",
+          "start": {
+            "item": "53bfda9e-87be-4ed3-96af-5c994df8daa7"
+          },
+          "end": {
+            "item": "57606944-3014-4b26-84da-aea278f26c3b"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "a44e08c1-71b6-48a9-b0a5-626005087f96",
+          "source": "5e7d40d9-a216-4517-b4f8-c8c9b132479f",
+          "target": "57606944-3014-4b26-84da-aea278f26c3b",
+          "start": {
+            "item": "5e7d40d9-a216-4517-b4f8-c8c9b132479f"
+          },
+          "end": {
+            "item": "57606944-3014-4b26-84da-aea278f26c3b"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "b0ad2f6c-a048-4f8e-b68c-3524dcaec03e",
+          "source": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723",
+          "target": "57606944-3014-4b26-84da-aea278f26c3b",
+          "start": {
+            "item": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723"
+          },
+          "end": {
+            "item": "57606944-3014-4b26-84da-aea278f26c3b"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "37a3bb9e-e419-4554-8ce2-35e0a1e7d79c",
+          "source": "57606944-3014-4b26-84da-aea278f26c3b",
+          "target": "ab4f2ce3-57af-43d9-893b-134de9469661",
+          "start": {
+            "item": "57606944-3014-4b26-84da-aea278f26c3b"
+          },
+          "end": {
+            "item": "ab4f2ce3-57af-43d9-893b-134de9469661"
+          },
+          "sourceHandle": "source-right",
+          "targetHandle": "target-left",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [
+            {
+              "content": "!",
+              "textAlignVertical": "middle",
+              "position": 0.9
+            }
+          ],
+          "selected": false
+        },
+        {
+          "id": "4a5902a3-e650-4b46-94b5-0e78dc7a923e",
+          "source": "332a23ea-e755-490e-9fbe-27565a8b002c",
+          "target": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "start": {
+            "item": "332a23ea-e755-490e-9fbe-27565a8b002c"
+          },
+          "end": {
+            "item": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "11b3fa1b-1b9c-4963-82aa-8468bfa00715",
+          "source": "5e7d40d9-a216-4517-b4f8-c8c9b132479f",
+          "target": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "start": {
+            "item": "5e7d40d9-a216-4517-b4f8-c8c9b132479f"
+          },
+          "end": {
+            "item": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "45859e02-717f-4cae-a930-baad7f5cdbb4",
+          "source": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723",
+          "target": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "start": {
+            "item": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723"
+          },
+          "end": {
+            "item": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "f5d98d4e-bd43-4fda-b0d4-0475514aa5bf",
+          "source": "47e49524-ba47-43b7-a7b6-0fe6b0b49748",
+          "target": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "start": {
+            "item": "47e49524-ba47-43b7-a7b6-0fe6b0b49748"
+          },
+          "end": {
+            "item": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "cdf41fd3-9c91-4ee5-adea-70549eb9e594",
+          "source": "68774eb1-1f8f-4650-bfc3-14fd908f33c2",
+          "target": "ee6b976a-56a8-46c0-a165-cb832b976b4f",
+          "start": {
+            "item": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+          },
+          "end": {
+            "item": "ee6b976a-56a8-46c0-a165-cb832b976b4f"
+          },
+          "sourceHandle": "source-right",
+          "targetHandle": "target-left",
+          "connector": true,
+          "type": "default",
+          "animated": true,
+          "style": {
+            "stroke": "#7291aa",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#7291aa",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "a6b8bd18-f2bc-43be-9edd-2d0749d9dae1": {
+      "08bf7c0d-2b2f-454b-92c6-b99964b2b3ff": {
+        "meta": {
+          "title": "CartShop - DCB Inventory",
+          "type": "CHAPTER",
+          "timelineData": {
+            "rows": [
+              {
+                "id": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "type": "actor",
+                "height": 320,
+                "label": "Actor"
+              },
+              {
+                "id": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "type": "interaction",
+                "height": 320,
+                "label": "Interaction"
+              },
+              {
+                "id": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "type": "swimlane",
+                "height": 320,
+                "label": "Cart Events"
+              },
+              {
+                "id": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "type": "swimlane",
+                "height": 320,
+                "label": "Inventory Events"
+              },
+              {
+                "id": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "type": "spec",
+                "height": 320,
+                "label": "Spec Lane"
+              }
+            ],
+            "columns": [
+              {
+                "id": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "width": 450
+              },
+              {
+                "id": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "width": 450
+              },
+              {
+                "id": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "width": 450
+              },
+              {
+                "id": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "width": 450
+              },
+              {
+                "id": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "width": 450
+              },
+              {
+                "id": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "width": 450
+              },
+              {
+                "id": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "width": 450
+              }
+            ],
+            "cells": [
+              {
+                "id": "5cb90367-f474-4d0f-ad66-4cfb49731854",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "c2e76b6d-bfb5-41df-9d8e-ca25c0ba99ff"
+              },
+              {
+                "id": "76610a46-1886-471e-ab6f-724a2999a89e",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "b91b0d65-ed92-4179-9a14-44e52891f421"
+              },
+              {
+                "id": "ff506d41-f8f5-4cbb-89d0-5219cced63df",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "type": "empty"
+              },
+              {
+                "id": "7909dc17-f651-4ef8-ac25-f1bfef3b9074",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "d78e9314-4a07-45b3-a282-afb8c1b6d387"
+              },
+              {
+                "id": "bf4051ea-5e66-4c9c-9d84-c02d86c96a02",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "5ea8300d-43a4-411a-bde9-b056c818b027"
+              },
+              {
+                "id": "5f9decb8-5b06-43ec-8060-f69e0a859b58",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "type": "empty"
+              },
+              {
+                "id": "77835087-9745-4d0a-bd40-d8e6277b7996",
+                "rowId": "960b5525-16b9-45fe-ae1c-7392c396c9a0",
+                "colId": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "d0c88f0f-9c3a-4810-aa82-dc36842b5a78"
+              },
+              {
+                "id": "f5123473-deea-40a7-99a3-bd5eb11b7d53",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "type": "content",
+                "nodeType": "command",
+                "nodeId": "bf377ab4-e235-4b30-8f0d-9c7962fc3411"
+              },
+              {
+                "id": "4a8e9d51-1630-4cf0-9543-08d3ed1ea866",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "type": "content",
+                "nodeType": "command",
+                "nodeId": "b8bbdb63-767d-4ad7-933b-022da9682f91"
+              },
+              {
+                "id": "b4d769cf-70ec-4c1c-a09d-b55c6cd9ef00",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "type": "content",
+                "nodeType": "readmodel",
+                "nodeId": "57606944-3014-4b26-84da-aea278f26c3b"
+              },
+              {
+                "id": "58daae36-6032-4e32-8eb7-3a4308ebb323",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "type": "content",
+                "nodeType": "command",
+                "nodeId": "ab4f2ce3-57af-43d9-893b-134de9469661"
+              },
+              {
+                "id": "b85f2eca-5122-4a0c-b55b-95471de74f58",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "type": "content",
+                "nodeType": "command",
+                "nodeId": "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef"
+              },
+              {
+                "id": "3c2de6e0-c8e1-4e81-96c0-1cff59aa72ac",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "type": "content",
+                "nodeType": "readmodel",
+                "nodeId": "68774eb1-1f8f-4650-bfc3-14fd908f33c2"
+              },
+              {
+                "id": "61a4f25e-3677-42c3-b72b-e550cfa2d3a3",
+                "rowId": "8c6bd9cc-fd2f-42e4-af1b-9f9ecb6b5dc9",
+                "colId": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "type": "content",
+                "nodeType": "command",
+                "nodeId": "ee6b976a-56a8-46c0-a165-cb832b976b4f"
+              },
+              {
+                "id": "f9a6b1b2-c780-49b1-adc3-1fb74ed52b4b",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "type": "empty"
+              },
+              {
+                "id": "1eb53abc-3d7a-4a9c-a72e-cdce0b3fec9e",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "type": "content",
+                "nodeType": "event",
+                "nodeId": "332a23ea-e755-490e-9fbe-27565a8b002c"
+              },
+              {
+                "id": "f97721ea-07e3-41d0-a36c-38e3b90cad4d",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "type": "empty"
+              },
+              {
+                "id": "cb70de05-d432-4e97-9989-d11563bc075f",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "type": "content",
+                "nodeType": "event",
+                "nodeId": "5e7d40d9-a216-4517-b4f8-c8c9b132479f"
+              },
+              {
+                "id": "46c86269-8bcf-4cde-8448-5daeed219177",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "type": "content",
+                "nodeType": "event",
+                "nodeId": "1d73f17e-26b5-4c67-b8c1-bc5474f0d723"
+              },
+              {
+                "id": "d88767c2-a691-4309-82c6-a6371f7d0014",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "type": "empty"
+              },
+              {
+                "id": "8ec09dd8-ce4f-4e58-aef0-6bdf3f311b23",
+                "rowId": "4f358ac8-d70d-485f-bc0c-45b8aa552196",
+                "colId": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "type": "content",
+                "nodeType": "event",
+                "nodeId": "47e49524-ba47-43b7-a7b6-0fe6b0b49748"
+              },
+              {
+                "id": "e5126057-e7a9-40c6-a3fd-104f4eb371eb",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "type": "content",
+                "nodeType": "event",
+                "nodeId": "53bfda9e-87be-4ed3-96af-5c994df8daa7"
+              },
+              {
+                "id": "7d2d76ff-a5c3-4230-9253-1b94872253be",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "type": "empty"
+              },
+              {
+                "id": "20ccd8b0-2a88-4a83-87d3-823080e62d57",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "type": "empty"
+              },
+              {
+                "id": "c15481f8-ffc9-4504-aa78-acd95b4437f3",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "type": "empty"
+              },
+              {
+                "id": "3a73769a-ad44-4222-bb30-0de8bb1f98a7",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "type": "empty"
+              },
+              {
+                "id": "aaab8e6f-f2e3-4c33-9f43-b094b9eb92ef",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "type": "empty"
+              },
+              {
+                "id": "1826d640-a365-4a54-859f-2ae362c0122a",
+                "rowId": "905636a5-1789-4eef-b03e-10032c4bea50",
+                "colId": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "type": "empty"
+              },
+              {
+                "id": "06b95aa5-6c9f-4c90-b59d-1a7e19955d7c",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "f50e6ebd-af53-4ace-a7d3-562e65f13921",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "df0fac35-1910-42d6-8e3f-bc85d5f6ea36"
+              },
+              {
+                "id": "237cd038-9a75-4155-9e2c-893574b18e1b",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "732fa9eb-c44a-43cf-a97c-b39a9580d7c0",
+                "type": "empty"
+              },
+              {
+                "id": "4f82f50a-e676-485a-8652-7909382606be",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "aa136e5a-2c7e-454a-8731-c9f7f3a187a0",
+                "type": "empty"
+              },
+              {
+                "id": "33418d8b-bf04-4fc9-a7d8-4381a8ab2c68",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "c2122e92-c6a9-4db3-ad78-bc6dc3ad056b",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "f06a1ea4-84a3-4fe9-9e9f-e386827543f9"
+              },
+              {
+                "id": "8ec42577-8441-42f9-b332-c781f1dac059",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "e0047ceb-e3ea-47dc-ae10-65110ddef3bf",
+                "type": "empty"
+              },
+              {
+                "id": "91176f49-0a8e-4a81-a209-401237dddd57",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "d8cdab19-33d9-4bf4-891c-7dc26b709e2c",
+                "type": "content",
+                "nodeType": "sticky",
+                "nodeId": "7633188f-f8d0-4e73-b1d6-403cc938136b"
+              },
+              {
+                "id": "9d928968-73a7-4013-91db-2477def01e14",
+                "rowId": "3bb5c953-4410-4817-8a4c-5f78f4762915",
+                "colId": "998cad36-1c7a-4058-844c-efea837a32b6",
+                "type": "empty"
+              }
+            ]
+          }
+        }
+      },
+      "c2e76b6d-bfb5-41df-9d8e-ca25c0ba99ff": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Admin",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "b91b0d65-ed92-4179-9a14-44e52891f421": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Customer",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "d78e9314-4a07-45b3-a282-afb8c1b6d387": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Customer",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "5ea8300d-43a4-411a-bde9-b056c818b027": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Customer",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "d0c88f0f-9c3a-4810-aa82-dc36842b5a78": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Customer",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "bf377ab4-e235-4b30-8f0d-9c7962fc3411": {
+        "meta": {
+          "type": "COMMAND",
+          "title": "SetStock",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "quantity",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "b8bbdb63-767d-4ad7-933b-022da9682f91": {
+        "meta": {
+          "type": "COMMAND",
+          "title": "CreateCart",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "customerName",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "ab4f2ce3-57af-43d9-893b-134de9469661": {
+        "meta": {
+          "type": "COMMAND",
+          "title": "AddItem",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "displayName",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "quantity",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "unitPrice",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "b04aeb97-79c3-48d0-98ff-19ee4a18a2ef": {
+        "meta": {
+          "type": "COMMAND",
+          "title": "RemoveItem",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "itemId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "ee6b976a-56a8-46c0-a165-cb832b976b4f": {
+        "meta": {
+          "type": "COMMAND",
+          "title": "SubmitCart",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "57606944-3014-4b26-84da-aea278f26c3b": {
+        "meta": {
+          "type": "READMODEL",
+          "title": "StockLevel (DCB)",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "stock",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "reserved",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "available",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "68774eb1-1f8f-4650-bfc3-14fd908f33c2": {
+        "meta": {
+          "type": "READMODEL",
+          "title": "GetCart",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "id",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "customerName",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "status",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "lines",
+              "type": "Custom",
+              "cardinality": "List",
+              "subfields": [
+                {
+                  "name": "sku",
+                  "type": "String",
+                  "cardinality": "Single"
+                },
+                {
+                  "name": "quantity",
+                  "type": "Int",
+                  "cardinality": "Single"
+                },
+                {
+                  "name": "unitPrice",
+                  "type": "Custom",
+                  "cardinality": "Single"
+                }
+              ],
+              "showAttributes": true
+            },
+            {
+              "name": "total",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "332a23ea-e755-490e-9fbe-27565a8b002c": {
+        "meta": {
+          "type": "EVENT",
+          "title": "CartCreated",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "customerName",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "createdAt",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "5e7d40d9-a216-4517-b4f8-c8c9b132479f": {
+        "meta": {
+          "type": "EVENT",
+          "title": "ItemAdded",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "itemId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "displayName",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "quantity",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "unitPrice",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "1d73f17e-26b5-4c67-b8c1-bc5474f0d723": {
+        "meta": {
+          "type": "EVENT",
+          "title": "ItemRemoved",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "itemId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "quantity",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "47e49524-ba47-43b7-a7b6-0fe6b0b49748": {
+        "meta": {
+          "type": "EVENT",
+          "title": "CartSubmitted",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "cartId",
+              "type": "UUID",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "submittedAt",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "totalAmount",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "53bfda9e-87be-4ed3-96af-5c994df8daa7": {
+        "meta": {
+          "type": "EVENT",
+          "title": "ProductStockSet",
+          "context": "INTERNAL",
+          "compact": true,
+          "fields": [
+            {
+              "name": "sku",
+              "type": "String",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "quantity",
+              "type": "Int",
+              "cardinality": "Single",
+              "subfields": []
+            },
+            {
+              "name": "at",
+              "type": "Custom",
+              "cardinality": "Single",
+              "subfields": []
+            }
+          ]
+        }
+      },
+      "f06a1ea4-84a3-4fe9-9e9f-e386827543f9": {
+        "meta": {
+          "type": "STICKY",
+          "title": "DCB consistency boundary:\nAddItem reads StockLevel via\nFetchForWritingByTags(sku);\nSaveChanges asserts no other\nSku-tagged event slipped in.\n",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "df0fac35-1910-42d6-8e3f-bc85d5f6ea36": {
+        "meta": {
+          "type": "STICKY",
+          "title": "Events with a Sku property are\ntagged at append time via\nnew Event<T>(evt).AddTag(sku).\n",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      },
+      "7633188f-f8d0-4e73-b1d6-403cc938136b": {
+        "meta": {
+          "type": "STICKY",
+          "title": "GetCart is a Marten Inline\nSnapshot \u2014 folded from this\ncart's stream only.\n",
+          "context": "INTERNAL",
+          "compact": true
+        }
+      }
+    }
+  },
+  "images": {
+    "a6b8bd18-f2bc-43be-9edd-2d0749d9dae1": {}
+  },
+  "nodeSnapshots": {
+    "a6b8bd18-f2bc-43be-9edd-2d0749d9dae1": {}
+  }
+}

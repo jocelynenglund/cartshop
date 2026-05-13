@@ -1,0 +1,18 @@
+:root {
+  --ink: #1c1c1c;
+  --muted: #707070;
+  --paper: #fafafa;
+  --line: #e5e5e5;
+  --accent: #2b6cb0;
+  --bad: #c0392b;
+  --ok: #2f855a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}

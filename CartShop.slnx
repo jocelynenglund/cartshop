@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="CartShop.ApiService/CartShop.ApiService.csproj" />
+  <Project Path="CartShop.AppHost/CartShop.AppHost.csproj" />
+  <Project Path="CartShop.Core/CartShop.Core.csproj" />
+  <Project Path="CartShop.Events/CartShop.Events.csproj" />
+  <Project Path="CartShop.ServiceDefaults/CartShop.ServiceDefaults.csproj" />
+</Solution>

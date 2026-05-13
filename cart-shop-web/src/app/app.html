@@ -1,0 +1,31 @@
+<main>
+  <header>
+    <h1>CartShop</h1>
+    <p class="sub">Marten · Wolverine · Aspire · Angular &mdash; DCB inventory</p>
+  </header>
+
+  <cs-set-stock (stockSet)="onStockSet($event)" />
+
+  @if (watchedSkus().length > 0) {
+    <section class="card">
+      <h2>Inventory</h2>
+      <div class="stock-row">
+        @for (sku of watchedSkus(); track sku) {
+          <cs-stock-level [sku]="sku" [refreshKey]="stockTick()" />
+        }
+      </div>
+    </section>
+  }
+
+  @if (cartId(); as id) {
+    <cs-get-cart
+      [cartId]="id"
+      (discarded)="discardCart()"
+      (cartSubmitted)="onCartSubmitted()"
+      (cartChanged)="onCartChanged()" />
+  } @else {
+    <cs-create-cart (cartCreated)="onCartCreated($event)" />
+  }
+
+  <cs-list-submitted-carts [refreshKey]="cartsTick()" />
+</main>
