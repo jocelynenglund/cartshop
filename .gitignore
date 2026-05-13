@@ -1,9 +1,54 @@
+# .NET build output
 bin/
 obj/
 *.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+
+# Aspire local state
+.aspire/
+*.aspire/
+aspire-manifest.json
+
+# Web build output / caches
 node_modules/
 dist/
 .angular/
+.tsbuildinfo
+*.tsbuildinfo
+.parcel-cache/
+.next/
+
+# Web logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
 .vs/
 .idea/
+# (cart-shop-web/.gitignore manages its own .vscode/ allow-list)
+*.swp
+*.swo
+*.bak
+*~
 .DS_Store
+Thumbs.db
