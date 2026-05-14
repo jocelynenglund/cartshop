@@ -1,14 +1,14 @@
 {
   "boards": {
-    "eb144759-2d17-40f4-ae86-797ee7c090a6": {
+    "c3c1c7ad-58b8-44b4-9d4f-3b754811c687": {
       "name": "CartShop - DCB Inventory & Coupons"
     }
   },
   "nodes": {
-    "eb144759-2d17-40f4-ae86-797ee7c090a6": {
+    "c3c1c7ad-58b8-44b4-9d4f-3b754811c687": {
       "nodes": [
         {
-          "id": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "id": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "type": "timeline",
           "position": {
             "x": 562.3915405273438,
@@ -18,286 +18,308 @@
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "39d7b2b6-285c-4f12-a38d-4ee630ddc3af",
+          "id": "8e8b1dac-58d9-4efd-ab26-feecda4cf6ff",
           "type": "sticky_note",
           "data": {
-            "metaHash": "c26470"
+            "metaHash": "f2f3ee"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "fd95f46e-b30b-4772-8f57-4e2d23237115",
+          "id": "97a2f24e-be7c-43d4-8c47-e60c3f6a38bf",
           "type": "sticky_note",
           "data": {
-            "metaHash": "1567be"
+            "metaHash": "36459f"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "8911543d-d369-46d3-8114-24072c4f292c",
+          "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
           "type": "sticky_note",
           "data": {
-            "metaHash": "bebe85"
+            "metaHash": "b443bb"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+          "id": "be85fd36-c573-4b8e-bec8-4686493f32f3",
           "type": "sticky_note",
           "data": {
-            "metaHash": "19214e"
+            "metaHash": "1ad9bc"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "74250cbf-0394-4f58-b7e0-9609df4162d9",
+          "id": "8b962d59-0622-4795-9c68-44c69751e956",
           "type": "sticky_note",
           "data": {
-            "metaHash": "f7a7c8"
+            "metaHash": "909122"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "d6da4e23-5850-4a93-83b0-11e7b61efdc2",
+          "id": "c623c47c-7d4e-4096-bd99-972b52e47d9b",
           "type": "sticky_note",
           "data": {
-            "metaHash": "5b8891"
+            "metaHash": "52fe4b"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "946e301f-f1e6-480c-a556-efb481372d50",
+          "id": "2fef4850-3ad5-46e2-85fb-aed67b1675a4",
           "type": "sticky_note",
           "data": {
-            "metaHash": "8597f8"
+            "metaHash": "2e79c3"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "7085d245-581d-47eb-a64e-2198e6280ed0",
+          "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
           "type": "sticky_note",
           "data": {
-            "metaHash": "c09469"
+            "metaHash": "933cd7"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "b139a758-125a-4db5-9985-ac474d906f86",
+          "id": "88c7e0db-3d44-4807-83af-d449be285f77",
           "type": "sticky_note",
           "data": {
-            "metaHash": "4f46cd"
+            "metaHash": "664fba"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+          "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
           "type": "sticky_note",
           "data": {
-            "metaHash": "090f05"
+            "metaHash": "574051"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "062855d7-4fcf-4261-9c07-fafe5c5a5806",
+          "id": "f9d189d4-b536-484f-be6a-f58439d679d4",
           "type": "sticky_note",
           "data": {
-            "metaHash": "5366bc"
+            "metaHash": "de94f5"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb",
+          "id": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5",
           "type": "sticky_note",
           "data": {
-            "metaHash": "cf6abe"
+            "metaHash": "7a3629"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "730b08d9-6581-48f7-8f4c-49d3c2ef191d",
+          "id": "15bed484-cd43-4a23-b5bb-f51bcc167c2d",
           "type": "sticky_note",
           "data": {
-            "metaHash": "be8590"
+            "metaHash": "eaf135"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02",
+          "id": "29cb327b-8162-4439-b636-11cc5b5ea2c1",
           "type": "sticky_note",
           "data": {
-            "metaHash": "a57fe3"
+            "metaHash": "123f49"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "1e3125f3-66d2-4760-86eb-dfa1f5880786",
+          "id": "58baa040-f7b2-46e7-819e-190032988ba9",
           "type": "sticky_note",
           "data": {
-            "metaHash": "8ce984"
+            "metaHash": "b3f9a5"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "f0f069fb-326d-49d8-aa3b-aae02bf4e89c",
+          "id": "c3eae468-b709-49c6-bd94-611affcbbb71",
           "type": "sticky_note",
           "data": {
-            "metaHash": "d5f569"
+            "metaHash": "875b03"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "b567e52d-3371-4c63-859b-858ad0cfed86",
+          "id": "a28772c8-de09-409e-a67e-58fc7ffed92c",
           "type": "sticky_note",
           "data": {
-            "metaHash": "b52842"
+            "metaHash": "517c47"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "1aad1a6c-d3b8-495d-83a3-64f4458847d4",
+          "id": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1",
           "type": "sticky_note",
           "data": {
-            "metaHash": "561209"
+            "metaHash": "9921c7"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "d331dc0e-0595-4237-8b96-2782a789bd50",
+          "id": "58b84ed6-2c23-48e0-bcb1-702d993ec230",
           "type": "sticky_note",
           "data": {
-            "metaHash": "4ea8a0"
+            "metaHash": "bec1fb"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "15c3f155-5658-4d05-bb63-73c893e381ed",
+          "id": "f0f9511e-3dba-4b40-a007-341e4bca8d59",
           "type": "sticky_note",
           "data": {
-            "metaHash": "2d3bb1"
+            "metaHash": "e7105a"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "5c867d09-05e2-4906-aa1f-f92a758be732",
+          "id": "5006ad21-44e0-41b8-a625-f363bfb7f544",
           "type": "sticky_note",
           "data": {
-            "metaHash": "d695a8"
+            "metaHash": "3eb5a0"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "b7ce665a-9c4e-488e-864b-5bed198a74de",
+          "id": "692b7bb7-7e5f-4b9c-8200-35b94b317a5d",
           "type": "sticky_note",
           "data": {
-            "metaHash": "119ad9"
+            "metaHash": "87928a"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "2e2af825-7404-494f-883f-4d8eee037ff2",
+          "id": "12e1b9c7-3af2-49ef-9103-75152b6d59bb",
           "type": "sticky_note",
           "data": {
-            "metaHash": "67bd7c"
+            "metaHash": "a55ccc"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "c053aaa6-8035-4306-9d91-de9fac031525",
+          "id": "8f13c1dd-f7d3-4bcd-8c2b-944fd7ee386a",
           "type": "sticky_note",
           "data": {
-            "metaHash": "a100b8"
+            "metaHash": "9b728c"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "9140066c-f632-406d-b80d-4ff8d52fb5f0",
+          "id": "4e8d3044-831b-42f0-9734-e4a91c55e63a",
           "type": "sticky_note",
           "data": {
-            "metaHash": "3c7f37"
+            "metaHash": "f0bdb9"
           },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "zIndex": 9999,
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "2064cc10-a949-4b3b-afa1-376abfa196d8",
-          "type": "sticky_note",
-          "data": {
-            "metaHash": "dfc8b3"
-          },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
-          "zIndex": 9999,
+          "id": "e9463001-d3bc-448a-818b-86bcbc9255c9",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         },
         {
-          "id": "85d2e5f2-fdcb-487e-a9c8-56ac62764a26",
-          "type": "sticky_note",
-          "data": {
-            "metaHash": "e36b09"
-          },
-          "parentId": "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471",
-          "zIndex": 9999,
+          "id": "2c549a5a-329d-4ed8-9453-d5fed2da4a15",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "d086d458-a07b-4c57-87fe-067b5fc053fd",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "0f339fbd-51dd-4338-b049-15b8c0932eab",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "d2600c10-f14c-4085-81e5-9e167d29df6c",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
+          "modifiedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "id": "e72607fe-de14-40ef-a84b-df4785580cda",
+          "type": "spec_node",
+          "data": {},
+          "parentId": "8cdc077a-7a43-4a54-80e4-9ba76c0adb01",
           "modifiedAt": "2026-01-01T00:00:00.000Z"
         }
       ],
       "edges": [
         {
-          "id": "6683c8f5-54ec-4be2-a0ac-a6922a7778fc",
-          "source": "fd95f46e-b30b-4772-8f57-4e2d23237115",
-          "target": "8911543d-d369-46d3-8114-24072c4f292c",
+          "id": "b26cfeae-ccfe-4879-824a-9a2b4bc3d09c",
+          "source": "97a2f24e-be7c-43d4-8c47-e60c3f6a38bf",
+          "target": "9cd09fea-88e1-4803-9a78-dff5b467962a",
           "start": {
-            "item": "fd95f46e-b30b-4772-8f57-4e2d23237115"
+            "item": "97a2f24e-be7c-43d4-8c47-e60c3f6a38bf"
           },
           "end": {
-            "item": "8911543d-d369-46d3-8114-24072c4f292c"
+            "item": "9cd09fea-88e1-4803-9a78-dff5b467962a"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -329,14 +351,14 @@
           "selected": false
         },
         {
-          "id": "d481d6df-8bfc-462d-8781-4811e75fabfc",
-          "source": "946e301f-f1e6-480c-a556-efb481372d50",
-          "target": "7085d245-581d-47eb-a64e-2198e6280ed0",
+          "id": "e1cf52b2-0a19-4cbf-addd-c447cd3049bb",
+          "source": "2fef4850-3ad5-46e2-85fb-aed67b1675a4",
+          "target": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
           "start": {
-            "item": "946e301f-f1e6-480c-a556-efb481372d50"
+            "item": "2fef4850-3ad5-46e2-85fb-aed67b1675a4"
           },
           "end": {
-            "item": "7085d245-581d-47eb-a64e-2198e6280ed0"
+            "item": "fb6e8a0d-7040-40f8-a02b-8c09780cb806"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -368,14 +390,14 @@
           "selected": false
         },
         {
-          "id": "569948d8-bd5e-4a55-84f0-ce70a00603c6",
-          "source": "b139a758-125a-4db5-9985-ac474d906f86",
-          "target": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+          "id": "9316cbeb-1c43-412e-81ff-a9829a523d7f",
+          "source": "88c7e0db-3d44-4807-83af-d449be285f77",
+          "target": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
           "start": {
-            "item": "b139a758-125a-4db5-9985-ac474d906f86"
+            "item": "88c7e0db-3d44-4807-83af-d449be285f77"
           },
           "end": {
-            "item": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0"
+            "item": "fed2706a-79bc-4c5a-976c-c7d50ffec40e"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -407,14 +429,14 @@
           "selected": false
         },
         {
-          "id": "2a4339ab-2e54-46ed-a78a-d6862c24d7b1",
-          "source": "062855d7-4fcf-4261-9c07-fafe5c5a5806",
-          "target": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb",
+          "id": "85fc5ee0-63be-4a76-9ba0-c5f3ffff5568",
+          "source": "f9d189d4-b536-484f-be6a-f58439d679d4",
+          "target": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5",
           "start": {
-            "item": "062855d7-4fcf-4261-9c07-fafe5c5a5806"
+            "item": "f9d189d4-b536-484f-be6a-f58439d679d4"
           },
           "end": {
-            "item": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb"
+            "item": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -446,14 +468,14 @@
           "selected": false
         },
         {
-          "id": "a2e470ac-7edc-4d46-bace-587e8c0a0a65",
-          "source": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02",
-          "target": "1e3125f3-66d2-4760-86eb-dfa1f5880786",
+          "id": "009027c3-86f7-47d5-8a9e-6b49429d7848",
+          "source": "29cb327b-8162-4439-b636-11cc5b5ea2c1",
+          "target": "58baa040-f7b2-46e7-819e-190032988ba9",
           "start": {
-            "item": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02"
+            "item": "29cb327b-8162-4439-b636-11cc5b5ea2c1"
           },
           "end": {
-            "item": "1e3125f3-66d2-4760-86eb-dfa1f5880786"
+            "item": "58baa040-f7b2-46e7-819e-190032988ba9"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -485,14 +507,14 @@
           "selected": false
         },
         {
-          "id": "6d912181-4370-4716-b0b3-2e6d1fc453c5",
-          "source": "f0f069fb-326d-49d8-aa3b-aae02bf4e89c",
-          "target": "b567e52d-3371-4c63-859b-858ad0cfed86",
+          "id": "47e6d486-16ff-4c37-bcaa-dcf632ba4bf9",
+          "source": "c3eae468-b709-49c6-bd94-611affcbbb71",
+          "target": "a28772c8-de09-409e-a67e-58fc7ffed92c",
           "start": {
-            "item": "f0f069fb-326d-49d8-aa3b-aae02bf4e89c"
+            "item": "c3eae468-b709-49c6-bd94-611affcbbb71"
           },
           "end": {
-            "item": "b567e52d-3371-4c63-859b-858ad0cfed86"
+            "item": "a28772c8-de09-409e-a67e-58fc7ffed92c"
           },
           "sourceHandle": "source-bottom",
           "targetHandle": "target-top",
@@ -524,14 +546,14 @@
           "selected": false
         },
         {
-          "id": "fe517c2d-9fbe-4353-a5ed-c69d570b091a",
-          "source": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
-          "target": "b139a758-125a-4db5-9985-ac474d906f86",
+          "id": "a3fec700-a7e9-4dbc-92e5-017440c64bc0",
+          "source": "be85fd36-c573-4b8e-bec8-4686493f32f3",
+          "target": "88c7e0db-3d44-4807-83af-d449be285f77",
           "start": {
-            "item": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+            "item": "be85fd36-c573-4b8e-bec8-4686493f32f3"
           },
           "end": {
-            "item": "b139a758-125a-4db5-9985-ac474d906f86"
+            "item": "88c7e0db-3d44-4807-83af-d449be285f77"
           },
           "sourceHandle": "source-right",
           "targetHandle": "target-left",
@@ -569,14 +591,14 @@
           "selected": false
         },
         {
-          "id": "75a170ae-9ad6-46fd-b024-d35a7d0a17cf",
-          "source": "730b08d9-6581-48f7-8f4c-49d3c2ef191d",
-          "target": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02",
+          "id": "0a49d3fc-0510-436b-b72b-d661e0b8fffb",
+          "source": "15bed484-cd43-4a23-b5bb-f51bcc167c2d",
+          "target": "29cb327b-8162-4439-b636-11cc5b5ea2c1",
           "start": {
-            "item": "730b08d9-6581-48f7-8f4c-49d3c2ef191d"
+            "item": "15bed484-cd43-4a23-b5bb-f51bcc167c2d"
           },
           "end": {
-            "item": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02"
+            "item": "29cb327b-8162-4439-b636-11cc5b5ea2c1"
           },
           "sourceHandle": "source-right",
           "targetHandle": "target-left",
@@ -614,14 +636,14 @@
           "selected": false
         },
         {
-          "id": "5eb7354e-5121-47d4-a552-07beddd453d1",
-          "source": "74250cbf-0394-4f58-b7e0-9609df4162d9",
-          "target": "946e301f-f1e6-480c-a556-efb481372d50",
+          "id": "c9241724-272f-43dc-910f-fd910cba3151",
+          "source": "8b962d59-0622-4795-9c68-44c69751e956",
+          "target": "2fef4850-3ad5-46e2-85fb-aed67b1675a4",
           "start": {
-            "item": "74250cbf-0394-4f58-b7e0-9609df4162d9"
+            "item": "8b962d59-0622-4795-9c68-44c69751e956"
           },
           "end": {
-            "item": "946e301f-f1e6-480c-a556-efb481372d50"
+            "item": "2fef4850-3ad5-46e2-85fb-aed67b1675a4"
           },
           "sourceHandle": "source-right",
           "targetHandle": "target-left",
@@ -659,14 +681,209 @@
           "selected": false
         },
         {
-          "id": "a0ab65ad-224b-4bb4-80ff-d9dd4977826d",
-          "source": "8911543d-d369-46d3-8114-24072c4f292c",
-          "target": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+          "id": "597220a8-c121-401c-8fff-0a47337571a7",
+          "source": "9cd09fea-88e1-4803-9a78-dff5b467962a",
+          "target": "be85fd36-c573-4b8e-bec8-4686493f32f3",
           "start": {
-            "item": "8911543d-d369-46d3-8114-24072c4f292c"
+            "item": "9cd09fea-88e1-4803-9a78-dff5b467962a"
           },
           "end": {
-            "item": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+            "item": "be85fd36-c573-4b8e-bec8-4686493f32f3"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "7b888b60-1c7c-4f51-a793-b842989e1d90",
+          "source": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
+          "target": "be85fd36-c573-4b8e-bec8-4686493f32f3",
+          "start": {
+            "item": "fed2706a-79bc-4c5a-976c-c7d50ffec40e"
+          },
+          "end": {
+            "item": "be85fd36-c573-4b8e-bec8-4686493f32f3"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "3af49061-84bf-4738-88c3-94a9bbe13a99",
+          "source": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5",
+          "target": "be85fd36-c573-4b8e-bec8-4686493f32f3",
+          "start": {
+            "item": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5"
+          },
+          "end": {
+            "item": "be85fd36-c573-4b8e-bec8-4686493f32f3"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "28bd5406-064a-40e6-a41a-2f5d7a71fb3a",
+          "source": "a28772c8-de09-409e-a67e-58fc7ffed92c",
+          "target": "be85fd36-c573-4b8e-bec8-4686493f32f3",
+          "start": {
+            "item": "a28772c8-de09-409e-a67e-58fc7ffed92c"
+          },
+          "end": {
+            "item": "be85fd36-c573-4b8e-bec8-4686493f32f3"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "accfac74-594d-44e7-a64c-ca48edbdbd62",
+          "source": "58baa040-f7b2-46e7-819e-190032988ba9",
+          "target": "15bed484-cd43-4a23-b5bb-f51bcc167c2d",
+          "start": {
+            "item": "58baa040-f7b2-46e7-819e-190032988ba9"
+          },
+          "end": {
+            "item": "15bed484-cd43-4a23-b5bb-f51bcc167c2d"
+          },
+          "sourceHandle": "source-top",
+          "targetHandle": "target-bottom",
+          "connector": true,
+          "type": "default",
+          "animated": false,
+          "style": {
+            "stroke": "#FF0000",
+            "strokeWidth": 3,
+            "startStrokeCap": "none",
+            "endStrokeCap": "arrow",
+            "strokeStyle": "normal",
+            "strokeColor": "#FF0000",
+            "opacity": 1
+          },
+          "markerEnd": {
+            "type": "arrowclosed"
+          },
+          "zIndex": 500,
+          "data": {},
+          "x": 0,
+          "y": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "modifiedAt": "2026-01-01T00:00:00.000Z",
+          "captions": [],
+          "selected": false
+        },
+        {
+          "id": "33c68550-f964-4c39-b9c4-d8b121b11b23",
+          "source": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+          "target": "8b962d59-0622-4795-9c68-44c69751e956",
+          "start": {
+            "item": "fb6e8a0d-7040-40f8-a02b-8c09780cb806"
+          },
+          "end": {
+            "item": "8b962d59-0622-4795-9c68-44c69751e956"
           },
           "sourceHandle": "source-top",
           "targetHandle": "target-bottom",
@@ -698,14 +915,14 @@
           "selected": false
         },
         {
-          "id": "70fc3e15-6855-464d-9845-a205abbe0080",
-          "source": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
-          "target": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+          "id": "a2840d1b-c03f-49a5-825f-878a285082d9",
+          "source": "a28772c8-de09-409e-a67e-58fc7ffed92c",
+          "target": "8b962d59-0622-4795-9c68-44c69751e956",
           "start": {
-            "item": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0"
+            "item": "a28772c8-de09-409e-a67e-58fc7ffed92c"
           },
           "end": {
-            "item": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+            "item": "8b962d59-0622-4795-9c68-44c69751e956"
           },
           "sourceHandle": "source-top",
           "targetHandle": "target-bottom",
@@ -737,14 +954,14 @@
           "selected": false
         },
         {
-          "id": "423ecf93-0b36-4b99-8209-32144a50e2e4",
-          "source": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb",
-          "target": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+          "id": "da461152-ac38-4daa-a43a-d4dea8ef4d74",
+          "source": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+          "target": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1",
           "start": {
-            "item": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb"
+            "item": "fb6e8a0d-7040-40f8-a02b-8c09780cb806"
           },
           "end": {
-            "item": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+            "item": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1"
           },
           "sourceHandle": "source-top",
           "targetHandle": "target-bottom",
@@ -776,14 +993,14 @@
           "selected": false
         },
         {
-          "id": "40b9eabe-1c12-4d8f-9f67-7e68518b0fac",
-          "source": "b567e52d-3371-4c63-859b-858ad0cfed86",
-          "target": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+          "id": "a857a091-c36b-4759-9679-b8280fc6d9f7",
+          "source": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
+          "target": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1",
           "start": {
-            "item": "b567e52d-3371-4c63-859b-858ad0cfed86"
+            "item": "fed2706a-79bc-4c5a-976c-c7d50ffec40e"
           },
           "end": {
-            "item": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+            "item": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1"
           },
           "sourceHandle": "source-top",
           "targetHandle": "target-bottom",
@@ -815,209 +1032,14 @@
           "selected": false
         },
         {
-          "id": "2bd7d402-fe4a-4d9f-8621-e97c073d89ce",
-          "source": "7085d245-581d-47eb-a64e-2198e6280ed0",
-          "target": "74250cbf-0394-4f58-b7e0-9609df4162d9",
+          "id": "2da1556e-4308-45d7-8484-9f83a6e9b11c",
+          "source": "a28772c8-de09-409e-a67e-58fc7ffed92c",
+          "target": "f0f9511e-3dba-4b40-a007-341e4bca8d59",
           "start": {
-            "item": "7085d245-581d-47eb-a64e-2198e6280ed0"
+            "item": "a28772c8-de09-409e-a67e-58fc7ffed92c"
           },
           "end": {
-            "item": "74250cbf-0394-4f58-b7e0-9609df4162d9"
-          },
-          "sourceHandle": "source-top",
-          "targetHandle": "target-bottom",
-          "connector": true,
-          "type": "default",
-          "animated": true,
-          "style": {
-            "stroke": "#7291aa",
-            "strokeWidth": 3,
-            "startStrokeCap": "none",
-            "endStrokeCap": "arrow",
-            "strokeStyle": "normal",
-            "strokeColor": "#7291aa",
-            "opacity": 1
-          },
-          "markerEnd": {
-            "type": "arrowclosed"
-          },
-          "zIndex": 500,
-          "data": {},
-          "x": 0,
-          "y": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "modifiedAt": "2026-01-01T00:00:00.000Z",
-          "captions": [],
-          "selected": false
-        },
-        {
-          "id": "3ece730f-bc74-43da-91f1-1b47bd75f94d",
-          "source": "b567e52d-3371-4c63-859b-858ad0cfed86",
-          "target": "74250cbf-0394-4f58-b7e0-9609df4162d9",
-          "start": {
-            "item": "b567e52d-3371-4c63-859b-858ad0cfed86"
-          },
-          "end": {
-            "item": "74250cbf-0394-4f58-b7e0-9609df4162d9"
-          },
-          "sourceHandle": "source-top",
-          "targetHandle": "target-bottom",
-          "connector": true,
-          "type": "default",
-          "animated": true,
-          "style": {
-            "stroke": "#7291aa",
-            "strokeWidth": 3,
-            "startStrokeCap": "none",
-            "endStrokeCap": "arrow",
-            "strokeStyle": "normal",
-            "strokeColor": "#7291aa",
-            "opacity": 1
-          },
-          "markerEnd": {
-            "type": "arrowclosed"
-          },
-          "zIndex": 500,
-          "data": {},
-          "x": 0,
-          "y": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "modifiedAt": "2026-01-01T00:00:00.000Z",
-          "captions": [],
-          "selected": false
-        },
-        {
-          "id": "078a71ff-1849-4a57-8231-0d0e10f5a99a",
-          "source": "1e3125f3-66d2-4760-86eb-dfa1f5880786",
-          "target": "730b08d9-6581-48f7-8f4c-49d3c2ef191d",
-          "start": {
-            "item": "1e3125f3-66d2-4760-86eb-dfa1f5880786"
-          },
-          "end": {
-            "item": "730b08d9-6581-48f7-8f4c-49d3c2ef191d"
-          },
-          "sourceHandle": "source-top",
-          "targetHandle": "target-bottom",
-          "connector": true,
-          "type": "default",
-          "animated": true,
-          "style": {
-            "stroke": "#7291aa",
-            "strokeWidth": 3,
-            "startStrokeCap": "none",
-            "endStrokeCap": "arrow",
-            "strokeStyle": "normal",
-            "strokeColor": "#7291aa",
-            "opacity": 1
-          },
-          "markerEnd": {
-            "type": "arrowclosed"
-          },
-          "zIndex": 500,
-          "data": {},
-          "x": 0,
-          "y": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "modifiedAt": "2026-01-01T00:00:00.000Z",
-          "captions": [],
-          "selected": false
-        },
-        {
-          "id": "8c1ba56b-35d1-4cc6-b37d-230c8df7fb83",
-          "source": "7085d245-581d-47eb-a64e-2198e6280ed0",
-          "target": "1aad1a6c-d3b8-495d-83a3-64f4458847d4",
-          "start": {
-            "item": "7085d245-581d-47eb-a64e-2198e6280ed0"
-          },
-          "end": {
-            "item": "1aad1a6c-d3b8-495d-83a3-64f4458847d4"
-          },
-          "sourceHandle": "source-top",
-          "targetHandle": "target-bottom",
-          "connector": true,
-          "type": "default",
-          "animated": true,
-          "style": {
-            "stroke": "#7291aa",
-            "strokeWidth": 3,
-            "startStrokeCap": "none",
-            "endStrokeCap": "arrow",
-            "strokeStyle": "normal",
-            "strokeColor": "#7291aa",
-            "opacity": 1
-          },
-          "markerEnd": {
-            "type": "arrowclosed"
-          },
-          "zIndex": 500,
-          "data": {},
-          "x": 0,
-          "y": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "modifiedAt": "2026-01-01T00:00:00.000Z",
-          "captions": [],
-          "selected": false
-        },
-        {
-          "id": "3ae7389a-49f5-4ff2-9ff5-b568dfd2a5ce",
-          "source": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
-          "target": "1aad1a6c-d3b8-495d-83a3-64f4458847d4",
-          "start": {
-            "item": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0"
-          },
-          "end": {
-            "item": "1aad1a6c-d3b8-495d-83a3-64f4458847d4"
-          },
-          "sourceHandle": "source-top",
-          "targetHandle": "target-bottom",
-          "connector": true,
-          "type": "default",
-          "animated": true,
-          "style": {
-            "stroke": "#7291aa",
-            "strokeWidth": 3,
-            "startStrokeCap": "none",
-            "endStrokeCap": "arrow",
-            "strokeStyle": "normal",
-            "strokeColor": "#7291aa",
-            "opacity": 1
-          },
-          "markerEnd": {
-            "type": "arrowclosed"
-          },
-          "zIndex": 500,
-          "data": {},
-          "x": 0,
-          "y": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "modifiedAt": "2026-01-01T00:00:00.000Z",
-          "captions": [],
-          "selected": false
-        },
-        {
-          "id": "1b31324e-f5fd-48ea-8253-742a40db20cf",
-          "source": "b567e52d-3371-4c63-859b-858ad0cfed86",
-          "target": "15c3f155-5658-4d05-bb63-73c893e381ed",
-          "start": {
-            "item": "b567e52d-3371-4c63-859b-858ad0cfed86"
-          },
-          "end": {
-            "item": "15c3f155-5658-4d05-bb63-73c893e381ed"
+            "item": "f0f9511e-3dba-4b40-a007-341e4bca8d59"
           },
           "sourceHandle": "source-top",
           "targetHandle": "target-bottom",
@@ -1052,45 +1074,45 @@
     }
   },
   "metadata": {
-    "eb144759-2d17-40f4-ae86-797ee7c090a6": {
-      "8d89ccdb-f9ae-4ecf-b62b-07a0e534b471": {
+    "c3c1c7ad-58b8-44b4-9d4f-3b754811c687": {
+      "8cdc077a-7a43-4a54-80e4-9ba76c0adb01": {
         "meta": {
           "title": "CartShop - DCB Inventory & Coupons",
           "type": "CHAPTER",
           "timelineData": {
             "rows": [
               {
-                "id": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
+                "id": "4e299220-9dbf-4195-abeb-0f304652b2c5",
                 "type": "actor",
                 "height": 320,
                 "label": "Actor"
               },
               {
-                "id": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
+                "id": "32a2c8ec-7471-463a-b228-909da233d24c",
                 "type": "interaction",
                 "height": 320,
                 "label": "Interaction"
               },
               {
-                "id": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
+                "id": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
                 "type": "swimlane",
                 "height": 320,
                 "label": "Cart Events"
               },
               {
-                "id": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
+                "id": "bf69824f-baab-4779-94b2-a698479b355b",
                 "type": "swimlane",
                 "height": 320,
                 "label": "Inventory Events"
               },
               {
-                "id": "ef612bea-6383-481e-a770-e72420fe5541",
+                "id": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
                 "type": "spec",
                 "height": 320,
                 "label": "Spec Lane"
               },
               {
-                "id": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
+                "id": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
                 "type": "feedback",
                 "height": 320,
                 "label": "Feedback"
@@ -1098,546 +1120,552 @@
             ],
             "columns": [
               {
-                "id": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "width": 450
               },
               {
-                "id": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "width": 450
               },
               {
-                "id": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "width": 450
               },
               {
-                "id": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "width": 450
               },
               {
-                "id": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "width": 450
               },
               {
-                "id": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "width": 450
               },
               {
-                "id": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "width": 450
               },
               {
-                "id": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "width": 450
               },
               {
-                "id": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "width": 450
               },
               {
-                "id": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "width": 450
               },
               {
-                "id": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "f720f714-761c-4c64-b861-49518bd113f6",
                 "width": 450
               },
               {
-                "id": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "width": 450
               }
             ],
             "cells": [
               {
-                "id": "3908aaf0-59ae-4e94-9701-1ebd8557cfe6",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "7ff54e3d-85ae-4fa7-bc8f-3df7708adbbb",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "39d7b2b6-285c-4f12-a38d-4ee630ddc3af"
+                "nodeId": "8e8b1dac-58d9-4efd-ab26-feecda4cf6ff"
               },
               {
-                "id": "913dea60-c474-4571-afc1-337b313025c2",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "6475b75c-a507-47d0-a75d-9b3049419eba",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "empty"
               },
               {
-                "id": "bfd46674-ab22-452b-8b49-23ea703f9bb8",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "70180b50-4e04-4f3d-b524-b7178605d01d",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "empty"
               },
               {
-                "id": "25c6520a-e5d7-4249-8859-e2cf564b1805",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "5882b975-c1f8-405d-8ac3-d514d5de3b3b",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "d6da4e23-5850-4a93-83b0-11e7b61efdc2"
+                "nodeId": "c623c47c-7d4e-4096-bd99-972b52e47d9b"
               },
               {
-                "id": "4dc583c0-1da2-4c0c-bca4-c56b78ac5c98",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "6dfa7334-17d3-481c-9e00-de4fde6f7d63",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "type": "empty"
               },
               {
-                "id": "dc56552b-4809-4d3b-822a-da9f83a6bf75",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "3d6995a8-2f96-4dc1-9c25-eb9a241fdbbf",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "type": "empty"
               },
               {
-                "id": "39e70cc7-ea0b-4481-a80d-e0e5818eb1c0",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "c794bd11-c911-480b-873e-21e16ba9b00a",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "empty"
               },
               {
-                "id": "402a34d4-4ec8-4d6a-8fa4-bda5571ace34",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "724136c1-512f-49e7-8b80-718ef6ce17de",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "type": "empty"
               },
               {
-                "id": "0ac481ad-faca-4a40-ba6e-3ac8194f4d08",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "4e799c07-51bb-43c2-911c-1e50ec25554a",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "type": "empty"
               },
               {
-                "id": "02fb7d44-1bd1-4c81-9af1-b48e03f5736f",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "651d2455-6417-43c3-8ed3-c4d75a66ce4f",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "empty"
               },
               {
-                "id": "242b637a-be50-4ade-9f90-59ad896105cf",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "fb28dc44-7d6f-4334-b2dc-d47240c9b8ba",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "empty"
               },
               {
-                "id": "edb92220-b9d2-4e62-b528-91c8b48839fe",
-                "rowId": "85d5bbee-6d1e-4b62-bf4d-908b457c52b0",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "e40ab8b7-8acd-4681-b901-0a77366bdd83",
+                "rowId": "4e299220-9dbf-4195-abeb-0f304652b2c5",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "empty"
               },
               {
-                "id": "743764c1-c78b-44e0-ab38-71d412eb9461",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "989eab46-61d5-41a1-95bd-b453628fc22b",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "fd95f46e-b30b-4772-8f57-4e2d23237115"
+                "nodeId": "97a2f24e-be7c-43d4-8c47-e60c3f6a38bf"
               },
               {
-                "id": "83ed968d-c35b-442c-b3ac-d3e214b78a4b",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "f378b488-8d4d-4010-a4a4-e5791ef7f990",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75"
+                "nodeId": "be85fd36-c573-4b8e-bec8-4686493f32f3"
               },
               {
-                "id": "0fb6213a-cb7e-43d7-a76d-f6840a49ffd4",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "5e5a1e0a-496e-4ede-95ed-654af2158b49",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "74250cbf-0394-4f58-b7e0-9609df4162d9"
+                "nodeId": "8b962d59-0622-4795-9c68-44c69751e956"
               },
               {
-                "id": "3a4aa11d-814a-4134-84af-b4e2c2c67e76",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "6f5857c3-92fb-4074-ba8e-727209d31315",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "946e301f-f1e6-480c-a556-efb481372d50"
+                "nodeId": "2fef4850-3ad5-46e2-85fb-aed67b1675a4"
               },
               {
-                "id": "845c35b8-ad40-40f3-9288-e423d4120b58",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "12504e29-59e2-4707-b5c6-bd0d9601ab96",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "b139a758-125a-4db5-9985-ac474d906f86"
+                "nodeId": "88c7e0db-3d44-4807-83af-d449be285f77"
               },
               {
-                "id": "aaba1ccd-c4bd-4150-9de4-0f08854ac49d",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "07ae2017-46d4-42aa-9ca2-7762ac2c6ba9",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "062855d7-4fcf-4261-9c07-fafe5c5a5806"
+                "nodeId": "f9d189d4-b536-484f-be6a-f58439d679d4"
               },
               {
-                "id": "c7522b4b-b575-4a4b-8099-372b027c2e37",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "26755eca-b694-4bfc-a7db-eeb49c65ebe7",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "730b08d9-6581-48f7-8f4c-49d3c2ef191d"
+                "nodeId": "15bed484-cd43-4a23-b5bb-f51bcc167c2d"
               },
               {
-                "id": "3545fe9e-3aed-4721-8671-7a7569f56708",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "88066a29-87db-46ce-800b-b4455199be00",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02"
+                "nodeId": "29cb327b-8162-4439-b636-11cc5b5ea2c1"
               },
               {
-                "id": "0106148f-698e-468d-860d-2389dcc097e9",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "486c2bdd-e1ae-42cf-a88a-364f986a8f75",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "type": "content",
                 "nodeType": "command",
-                "nodeId": "f0f069fb-326d-49d8-aa3b-aae02bf4e89c"
+                "nodeId": "c3eae468-b709-49c6-bd94-611affcbbb71"
               },
               {
-                "id": "3489e8e5-8c11-4c13-912d-5fccb1318597",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "859c8b09-c782-4097-8a33-308cfe886eeb",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "1aad1a6c-d3b8-495d-83a3-64f4458847d4"
+                "nodeId": "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1"
               },
               {
-                "id": "02167830-ab98-4b24-b136-68e3a74a4262",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "2bfc04c6-7a4f-4d45-9e74-934f6660e217",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "d331dc0e-0595-4237-8b96-2782a789bd50"
+                "nodeId": "58b84ed6-2c23-48e0-bcb1-702d993ec230"
               },
               {
-                "id": "61f28b63-798b-4153-ae2d-b9dedb8ea797",
-                "rowId": "1d52bf31-79b2-4b24-a6de-44e707cc587b",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "61fcf2c7-110c-4b8f-9b79-d66c5c41bb19",
+                "rowId": "32a2c8ec-7471-463a-b228-909da233d24c",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "content",
                 "nodeType": "readmodel",
-                "nodeId": "15c3f155-5658-4d05-bb63-73c893e381ed"
+                "nodeId": "f0f9511e-3dba-4b40-a007-341e4bca8d59"
               },
               {
-                "id": "380cb942-48e2-475d-9e4c-b5a61ab562ae",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "786cd089-011f-4a70-abcd-c09aff5f6f6a",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "empty"
               },
               {
-                "id": "1eb38921-bbc2-4adf-92b4-ccc71c40c86e",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "11711bd6-5fc6-4683-b9b3-c02b375e8c16",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "empty"
               },
               {
-                "id": "ee9e0d44-448a-4ab4-97d6-c424c9f32fb6",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "0d422641-8330-4d91-8fef-b47bf5c287f8",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "empty"
               },
               {
-                "id": "6c99ab1d-d38a-4604-9d94-f68b7aa90474",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "2c3517ca-9506-491e-abbb-a5d9d44b5753",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "7085d245-581d-47eb-a64e-2198e6280ed0"
+                "nodeId": "fb6e8a0d-7040-40f8-a02b-8c09780cb806"
               },
               {
-                "id": "5f4c6e58-b983-4bda-b287-f2003803f0a2",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "77c689f5-7bde-4aee-a646-fb359bae2151",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0"
+                "nodeId": "fed2706a-79bc-4c5a-976c-c7d50ffec40e"
               },
               {
-                "id": "23a58b55-1fbf-4d6f-93ea-677560757071",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "9a72c2c9-7887-4ba0-988d-bc3806ebebab",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb"
+                "nodeId": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5"
               },
               {
-                "id": "2bcde158-cc1c-4d59-91c3-51593ffc091e",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "da906ed3-9b9e-4ae9-862a-83dd8f1bcb4f",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "empty"
               },
               {
-                "id": "76b17c46-0618-44f9-8708-11dfc8b5fa09",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "62beb87d-7c10-4b9a-a92b-0a0f60031efe",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "1e3125f3-66d2-4760-86eb-dfa1f5880786"
+                "nodeId": "58baa040-f7b2-46e7-819e-190032988ba9"
               },
               {
-                "id": "602d500e-68b6-4a18-91c8-d35befaeb113",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "98b96e70-980c-4be9-afcc-78ac68f16b4e",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "b567e52d-3371-4c63-859b-858ad0cfed86"
+                "nodeId": "a28772c8-de09-409e-a67e-58fc7ffed92c"
               },
               {
-                "id": "5e07273a-f65d-47ab-afcc-76af9da3bbd5",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "b37ab399-f76a-4d78-ad17-a4feb0f7611b",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "empty"
               },
               {
-                "id": "baf961a8-1bf9-47ce-b2bc-ecc71c33ab91",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "e140120f-5a84-4204-942f-bd75341c5dba",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "empty"
               },
               {
-                "id": "082cfd0b-425d-4f1e-af21-feb08ee097ed",
-                "rowId": "e7752aee-6e36-4f97-8db6-4e1fbeb1c015",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "4538cb25-0f21-4d26-b7ba-4444196dd14f",
+                "rowId": "e36a79df-b5a0-4fd2-ade8-88b9b9fdb05d",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "empty"
               },
               {
-                "id": "4a9615d0-fd6a-4ce7-bdbf-9a3196b7d416",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "b8cade58-8e1c-4761-ac6d-9b84734604ce",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "content",
                 "nodeType": "event",
-                "nodeId": "8911543d-d369-46d3-8114-24072c4f292c"
+                "nodeId": "9cd09fea-88e1-4803-9a78-dff5b467962a"
               },
               {
-                "id": "f693730c-9923-4c88-bf24-63ec7c9b6cb3",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "5a97e1ac-a2ac-4c60-a705-5385ec5f6a09",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "empty"
               },
               {
-                "id": "4b7079c7-eac3-43e9-a28e-9c6e353d3d5f",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "b5f2d7e6-0dd8-403e-9ebc-cba76dc3f95c",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "empty"
               },
               {
-                "id": "5970a8ce-ac78-47fa-bd89-4b5cc13a60a8",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "e5bf5f88-da7e-4d9e-8e8b-62bbd7f03daf",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "empty"
               },
               {
-                "id": "82d56223-669b-4c77-9803-f69b0715e7bd",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "5c478461-4276-409d-b78d-b15897d4de3e",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "type": "empty"
               },
               {
-                "id": "d23f2cd6-e334-412d-92a8-77a91340aa01",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "23f01c5e-463e-4321-988c-baea3f174b5f",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "type": "empty"
               },
               {
-                "id": "1b751f83-1ae1-4d96-b09d-ed4dafd98ae8",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "f421b1c3-8539-45ab-b2c2-dd6711062c99",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "empty"
               },
               {
-                "id": "11298363-61ef-4861-9a4a-ca7fd19800e0",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "22daff00-74f0-4945-b2bf-efa8faf6d50e",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "type": "empty"
               },
               {
-                "id": "e3122c7a-3a7d-4af0-9662-7d583ff5bcd3",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "f864e3ce-6584-4a26-aa1d-039550f6f71d",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "type": "empty"
               },
               {
-                "id": "0f478000-7766-49e2-8f2c-deba9b9c5620",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "ac7cc1d9-0e0d-41ea-adb5-de68e3c7b385",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "empty"
               },
               {
-                "id": "0a106530-c57a-4e21-b6a2-0749f4c243b1",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "6bc84d7a-3ae1-43e1-b21b-cf8c47b17e0f",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "empty"
               },
               {
-                "id": "30965e56-a196-4b64-8cc9-62854e6bde80",
-                "rowId": "77fb88d3-c8cb-4318-a1e3-7fc1c1750269",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "8aab6fbf-6d0e-4c6a-9525-55a1ad60104a",
+                "rowId": "bf69824f-baab-4779-94b2-a698479b355b",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "empty"
               },
               {
-                "id": "67521ad0-772f-4dbd-a434-47b971cd807f",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "345ae673-4a60-4c79-9070-95dc0c3fcc53",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "5c867d09-05e2-4906-aa1f-f92a758be732"
+                "nodeId": "5006ad21-44e0-41b8-a625-f363bfb7f544"
               },
               {
-                "id": "9cc86e09-3df4-4628-9e46-25e5037f39bd",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "2b30dc33-d869-4808-bd0c-106d7368cf12",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "content",
                 "nodeType": "spec",
-                "nodeId": "2064cc10-a949-4b3b-afa1-376abfa196d8"
+                "nodeId": "e9463001-d3bc-448a-818b-86bcbc9255c9"
               },
               {
-                "id": "ac05f785-bcce-4fe4-bbc1-a130549d6076",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "0a4d810e-53c4-441a-b4d7-ffb3b06ef7a6",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "empty"
               },
               {
-                "id": "db4982a9-c3d2-4e8d-8c2f-ad3ca9d9424b",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
-                "type": "content",
-                "nodeType": "sticky",
-                "nodeId": "b7ce665a-9c4e-488e-864b-5bed198a74de"
-              },
-              {
-                "id": "0852014d-a7e4-404e-9725-910c6c5be9ea",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "1be29c7f-2b60-4c80-b888-1cd65c74a6fb",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "content",
                 "nodeType": "spec",
-                "nodeId": "85d2e5f2-fdcb-487e-a9c8-56ac62764a26"
+                "nodeId": "d086d458-a07b-4c57-87fe-067b5fc053fd"
               },
               {
-                "id": "caa6f8e4-0681-46c0-aede-5dd1878bb22b",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
-                "type": "empty"
+                "id": "1dbf0251-06ea-419b-b91c-aae6058603e4",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
+                "type": "content",
+                "nodeType": "spec",
+                "nodeId": "2c549a5a-329d-4ed8-9453-d5fed2da4a15"
               },
               {
-                "id": "59022910-019b-439a-8817-d5d0b0c86b8b",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "a5913c35-1646-41ee-a962-d1979bd4b0db",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
+                "type": "content",
+                "nodeType": "spec",
+                "nodeId": "e72607fe-de14-40ef-a84b-df4785580cda"
+              },
+              {
+                "id": "074e3b92-8e3a-4aba-b92e-ea5c2e4407d3",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "2e2af825-7404-494f-883f-4d8eee037ff2"
+                "nodeId": "12e1b9c7-3af2-49ef-9103-75152b6d59bb"
               },
               {
-                "id": "4afbde32-4d8c-42ea-8dba-ebc333f4cf9c",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
-                "type": "empty"
+                "id": "8552fa11-540e-43b3-bc23-fba11eef30c0",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
+                "type": "content",
+                "nodeType": "spec",
+                "nodeId": "0f339fbd-51dd-4338-b049-15b8c0932eab"
               },
               {
-                "id": "885b1e12-42d6-4a66-b258-35b6cd3a63f8",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
-                "type": "empty"
+                "id": "6043b497-4042-4d1d-89df-122d2886fb15",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
+                "type": "content",
+                "nodeType": "spec",
+                "nodeId": "d2600c10-f14c-4085-81e5-9e167d29df6c"
               },
               {
-                "id": "729772d3-9b8a-4270-8626-a9c3d6a795d6",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "710b48db-9fc3-4753-900e-221c163e295a",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "c053aaa6-8035-4306-9d91-de9fac031525"
+                "nodeId": "8f13c1dd-f7d3-4bcd-8c2b-944fd7ee386a"
               },
               {
-                "id": "b92127d0-77d3-44ec-9043-7ddaec282545",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "56d5c759-77ce-41b5-9ccb-48bb157f537f",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "empty"
               },
               {
-                "id": "843dcf90-5b2e-4c2b-8e11-c571b32be764",
-                "rowId": "ef612bea-6383-481e-a770-e72420fe5541",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "f8fbc944-bd32-4b5e-8208-e6a7c184b917",
+                "rowId": "6ba00cd7-bc01-4dd7-8869-ccc11c217632",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "content",
                 "nodeType": "sticky",
-                "nodeId": "9140066c-f632-406d-b80d-4ff8d52fb5f0"
+                "nodeId": "4e8d3044-831b-42f0-9734-e4a91c55e63a"
               },
               {
-                "id": "f1fc49e8-3d15-41b4-9dec-1323bbfbed53",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "e649b309-e4eb-48b1-b84b-690bd7291aaf",
+                "id": "7e2face2-a8b8-4726-b849-33079276e8ce",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "88d1a7f6-0f5a-46c7-8ab8-1d8721c49326",
                 "type": "empty"
               },
               {
-                "id": "b4743f0d-ec56-4ddd-8694-4ec79b216c2f",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "d04d634b-d2d5-4b51-a1e5-ff0dae7824b6",
+                "id": "41522f2b-62e6-41fe-8519-635d558f41a0",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "8bf8e0a1-36ce-4dbd-9481-17e0babac62e",
                 "type": "empty"
               },
               {
-                "id": "4d3d63d5-9cde-49c7-b935-8573d5396b65",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "3617dd9d-c803-45d2-9df6-39d56d3abc11",
+                "id": "16fb4359-9a11-470d-8511-7de31afa303c",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "3ad82005-4a75-4809-aed2-ab348530201b",
                 "type": "empty"
               },
               {
-                "id": "81b48fec-d49f-4513-b626-48aef1fcdb70",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "d678d111-a5a6-47de-a3e7-b3c6c5fbc2f0",
+                "id": "d5958edb-3b47-4631-b2a8-79ca1a7c9418",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "6f9db2a4-78f6-4d96-b5c7-6db292a3fdde",
                 "type": "empty"
               },
               {
-                "id": "ac81545e-59a6-4232-b44a-a05fce0ef635",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "8aeea25e-daae-46a8-9e13-dafbe054ce59",
+                "id": "41669b35-210e-4e69-80b8-8da9c78128e4",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "47cce45e-9289-409e-aab2-901751f6bd3b",
                 "type": "empty"
               },
               {
-                "id": "40fe90c1-68d4-4633-b109-7d4a44f178a2",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "bc3a0d72-3810-47f8-9bb0-d8b4dd3906f1",
+                "id": "726f351b-440a-4d37-b7fd-5bffbde6081c",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "789b7ee5-7f57-41e1-a9f5-56d0cc40e753",
                 "type": "empty"
               },
               {
-                "id": "1f6f1255-9a58-4718-a375-05eb7183564a",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "9c13bb78-63c0-404e-8016-fb621b19b9eb",
+                "id": "d91c7683-ec2b-4b62-8645-748339b5f26b",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "72762190-605a-4fb6-a964-b0adb68badc1",
                 "type": "empty"
               },
               {
-                "id": "117d797e-fe59-4164-96e2-036147dbbf86",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "07190fb8-949a-4156-aa24-7dc5e1be6052",
+                "id": "f27a9978-192e-4a6f-9b19-0ccc57f81fae",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "124bc56d-1fb6-4793-820d-14ffcf30d3f6",
                 "type": "empty"
               },
               {
-                "id": "5ec102bc-0d65-4bf3-a5d5-bb05f445e993",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "37e25b7b-d7a6-4431-86b5-613aceb111db",
+                "id": "f14bc1d6-2afa-45ff-abdb-beda841fd4b1",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "71f7a8c7-1d96-4839-995f-fd3de4651fd1",
                 "type": "empty"
               },
               {
-                "id": "9f80018f-71f9-4c8f-968f-a9385166d1e7",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "49ee6ac2-e83a-4efb-bb89-3c637bb18721",
+                "id": "e7580318-366b-4d9c-9565-8be599be638e",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "0ce34fb3-b6b3-41a2-8451-a8f6df7f48fd",
                 "type": "empty"
               },
               {
-                "id": "9367a3d8-4ff0-4fbb-8941-1ac645f68368",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "413c8de1-20ed-47a8-b09c-b4ea6b507572",
+                "id": "a7d317bc-6c58-48d4-9055-b90a41826fb5",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "f720f714-761c-4c64-b861-49518bd113f6",
                 "type": "empty"
               },
               {
-                "id": "c009e31f-5f62-4053-a927-65eeb7c9ef6e",
-                "rowId": "a9cf8525-e44d-42b0-80c3-759a326f3b72",
-                "colId": "e9bc849d-09d0-4ee4-9742-fb53ddfb2014",
+                "id": "7bdc2deb-3772-47ec-838e-7f5314dae376",
+                "rowId": "3b484161-a081-4a00-93ae-c7b8e6a2cd0d",
+                "colId": "df1efd46-8d9f-4226-96ac-45aaaf0d6de2",
                 "type": "empty"
               }
             ]
           }
         }
       },
-      "39d7b2b6-285c-4f12-a38d-4ee630ddc3af": {
+      "8e8b1dac-58d9-4efd-ab26-feecda4cf6ff": {
         "meta": {
           "type": "STICKY",
           "title": "Admin",
@@ -1645,7 +1673,7 @@
           "compact": true
         }
       },
-      "fd95f46e-b30b-4772-8f57-4e2d23237115": {
+      "97a2f24e-be7c-43d4-8c47-e60c3f6a38bf": {
         "meta": {
           "type": "COMMAND",
           "title": "SetStock",
@@ -1667,7 +1695,7 @@
           ]
         }
       },
-      "8911543d-d369-46d3-8114-24072c4f292c": {
+      "9cd09fea-88e1-4803-9a78-dff5b467962a": {
         "meta": {
           "type": "EVENT",
           "title": "ProductStockSet",
@@ -1695,7 +1723,7 @@
           ]
         }
       },
-      "2ddc501d-53ff-4cd6-af79-da8e9cab1b75": {
+      "be85fd36-c573-4b8e-bec8-4686493f32f3": {
         "meta": {
           "type": "READMODEL",
           "title": "StockLevel (DCB)",
@@ -1735,7 +1763,7 @@
           "todoListElement": false
         }
       },
-      "74250cbf-0394-4f58-b7e0-9609df4162d9": {
+      "8b962d59-0622-4795-9c68-44c69751e956": {
         "meta": {
           "type": "READMODEL",
           "title": "OpenCartByCustomer",
@@ -1766,7 +1794,7 @@
           "todoListElement": false
         }
       },
-      "d6da4e23-5850-4a93-83b0-11e7b61efdc2": {
+      "c623c47c-7d4e-4096-bd99-972b52e47d9b": {
         "meta": {
           "type": "STICKY",
           "title": "Customer",
@@ -1774,7 +1802,7 @@
           "compact": true
         }
       },
-      "946e301f-f1e6-480c-a556-efb481372d50": {
+      "2fef4850-3ad5-46e2-85fb-aed67b1675a4": {
         "meta": {
           "type": "COMMAND",
           "title": "CreateCart",
@@ -1790,7 +1818,7 @@
           ]
         }
       },
-      "7085d245-581d-47eb-a64e-2198e6280ed0": {
+      "fb6e8a0d-7040-40f8-a02b-8c09780cb806": {
         "meta": {
           "type": "EVENT",
           "title": "CartCreated",
@@ -1818,7 +1846,7 @@
           ]
         }
       },
-      "b139a758-125a-4db5-9985-ac474d906f86": {
+      "88c7e0db-3d44-4807-83af-d449be285f77": {
         "meta": {
           "type": "COMMAND",
           "title": "AddItem",
@@ -1858,7 +1886,7 @@
           ]
         }
       },
-      "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0": {
+      "fed2706a-79bc-4c5a-976c-c7d50ffec40e": {
         "meta": {
           "type": "EVENT",
           "title": "ItemAdded",
@@ -1904,7 +1932,7 @@
           ]
         }
       },
-      "062855d7-4fcf-4261-9c07-fafe5c5a5806": {
+      "f9d189d4-b536-484f-be6a-f58439d679d4": {
         "meta": {
           "type": "COMMAND",
           "title": "RemoveItem",
@@ -1926,7 +1954,7 @@
           ]
         }
       },
-      "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb": {
+      "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5": {
         "meta": {
           "type": "EVENT",
           "title": "ItemRemoved",
@@ -1960,7 +1988,7 @@
           ]
         }
       },
-      "730b08d9-6581-48f7-8f4c-49d3c2ef191d": {
+      "15bed484-cd43-4a23-b5bb-f51bcc167c2d": {
         "meta": {
           "type": "READMODEL",
           "title": "CouponUsage (DCB)",
@@ -1997,7 +2025,7 @@
           "todoListElement": false
         }
       },
-      "dd1d13eb-a361-4bc8-9c28-1ade98f5fd02": {
+      "29cb327b-8162-4439-b636-11cc5b5ea2c1": {
         "meta": {
           "type": "COMMAND",
           "title": "ApplyCoupon",
@@ -2019,7 +2047,7 @@
           ]
         }
       },
-      "1e3125f3-66d2-4760-86eb-dfa1f5880786": {
+      "58baa040-f7b2-46e7-819e-190032988ba9": {
         "meta": {
           "type": "EVENT",
           "title": "CouponApplied",
@@ -2047,7 +2075,7 @@
           ]
         }
       },
-      "f0f069fb-326d-49d8-aa3b-aae02bf4e89c": {
+      "c3eae468-b709-49c6-bd94-611affcbbb71": {
         "meta": {
           "type": "COMMAND",
           "title": "SubmitCart",
@@ -2063,7 +2091,7 @@
           ]
         }
       },
-      "b567e52d-3371-4c63-859b-858ad0cfed86": {
+      "a28772c8-de09-409e-a67e-58fc7ffed92c": {
         "meta": {
           "type": "EVENT",
           "title": "CartSubmitted",
@@ -2091,7 +2119,7 @@
           ]
         }
       },
-      "1aad1a6c-d3b8-495d-83a3-64f4458847d4": {
+      "c088bd78-5f1d-4ffe-8e7a-d8960491bfa1": {
         "meta": {
           "type": "READMODEL",
           "title": "GetCart",
@@ -2161,7 +2189,7 @@
           "todoListElement": false
         }
       },
-      "d331dc0e-0595-4237-8b96-2782a789bd50": {
+      "58b84ed6-2c23-48e0-bcb1-702d993ec230": {
         "meta": {
           "type": "READMODEL",
           "title": "CartTimeline (live)",
@@ -2197,7 +2225,7 @@
           "todoListElement": false
         }
       },
-      "15c3f155-5658-4d05-bb63-73c893e381ed": {
+      "f0f9511e-3dba-4b40-a007-341e4bca8d59": {
         "meta": {
           "type": "READMODEL",
           "title": "SalesByDay (async)",
@@ -2228,7 +2256,7 @@
           "todoListElement": false
         }
       },
-      "5c867d09-05e2-4906-aa1f-f92a758be732": {
+      "5006ad21-44e0-41b8-a625-f363bfb7f544": {
         "meta": {
           "type": "STICKY",
           "title": "DCB tag plumbing:\nEvents with a Sku or CouponCode\nproperty are tagged at append\ntime via new Event<T>(evt).AddTag(...).\nInitialization registers both via\nRegisterTagType<Sku>() and\nRegisterTagType<CouponCode>().\n",
@@ -2236,7 +2264,7 @@
           "compact": true
         }
       },
-      "b7ce665a-9c4e-488e-864b-5bed198a74de": {
+      "692b7bb7-7e5f-4b9c-8200-35b94b317a5d": {
         "meta": {
           "type": "STICKY",
           "title": "DCB inventory boundary:\nAddItem reads StockLevel via\nFetchForWritingByTags(sku).\nSaveChangesAsync asserts no\nother Sku-tagged event slipped\nin between read and write.\n",
@@ -2244,7 +2272,7 @@
           "compact": true
         }
       },
-      "2e2af825-7404-494f-883f-4d8eee037ff2": {
+      "12e1b9c7-3af2-49ef-9103-75152b6d59bb": {
         "meta": {
           "type": "STICKY",
           "title": "DCB single-use boundary:\nApplyCoupon reads CouponUsage via\nFetchForWritingByTags(code).\nOnly one cart can ever win the\nclaim. Same primitive as stock,\ndifferent shape of rule.\n",
@@ -2252,7 +2280,7 @@
           "compact": true
         }
       },
-      "c053aaa6-8035-4306-9d91-de9fac031525": {
+      "8f13c1dd-f7d3-4bcd-8c2b-944fd7ee386a": {
         "meta": {
           "type": "STICKY",
           "title": "OpenCartByCustomer is an *inline\nprojection* (not DCB) \u2014 same\nconsistency property though:\nCreateCart reads it on the write\npath, so the previous commit is\nvisible to the next request.\n",
@@ -2260,7 +2288,7 @@
           "compact": true
         }
       },
-      "9140066c-f632-406d-b80d-4ff8d52fb5f0": {
+      "4e8d3044-831b-42f0-9734-e4a91c55e63a": {
         "meta": {
           "type": "STICKY",
           "title": "Projection lifecycles:\n\u2022 GetCart        \u2014 inline snapshot\n\u2022 CartTimeline   \u2014 live replay\n                   (no daemon, no doc)\n\u2022 SalesByDay     \u2014 async, daemon polls\n",
@@ -2268,20 +2296,20 @@
           "compact": true
         }
       },
-      "2064cc10-a949-4b3b-afa1-376abfa196d8": {
+      "e9463001-d3bc-448a-818b-86bcbc9255c9": {
         "meta": {
           "type": "SCENARIO",
           "givenWhenThenScenario": {
             "scenarios": [
               {
-                "id": "adeed068-8f2f-440f-8ed8-d640ab0a8133",
+                "id": "ead4e5df-ddd9-4cc2-a182-bb711d18cecd",
                 "title": "Available Items on Cart Additions",
                 "expectError": false,
                 "expectEmptyList": false,
                 "examples": [],
                 "given": [
                   {
-                    "id": "8911543d-d369-46d3-8114-24072c4f292c",
+                    "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
                     "title": "ProductStockSet",
                     "type": "EVENT",
                     "fields": [
@@ -2299,7 +2327,7 @@
                     ]
                   },
                   {
-                    "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
                     "title": "ItemAdded",
                     "type": "EVENT",
                     "fields": [
@@ -2329,7 +2357,7 @@
                 "when": [],
                 "then": [
                   {
-                    "id": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+                    "id": "be85fd36-c573-4b8e-bec8-4686493f32f3",
                     "title": "StockLevel (DCB)",
                     "type": "READMODEL",
                     "fields": [
@@ -2355,14 +2383,14 @@
                 "description": "Available items are updated whenever the item is added to a cart."
               },
               {
-                "id": "22c06393-e320-4b4c-8d80-86768b5cdba7",
+                "id": "4c03c566-3a28-4dcd-a46c-d28814c7a37e",
                 "title": "Reservation is released on cart removal",
                 "expectError": false,
                 "expectEmptyList": false,
                 "examples": [],
                 "given": [
                   {
-                    "id": "8911543d-d369-46d3-8114-24072c4f292c",
+                    "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
                     "title": "ProductStockSet",
                     "type": "EVENT",
                     "fields": [
@@ -2380,7 +2408,7 @@
                     ]
                   },
                   {
-                    "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
                     "title": "ItemAdded",
                     "type": "EVENT",
                     "fields": [
@@ -2407,7 +2435,7 @@
                     ]
                   },
                   {
-                    "id": "81d45bbc-e38c-4e9a-9c52-a59eaae4e3eb",
+                    "id": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5",
                     "title": "ItemRemoved",
                     "type": "EVENT",
                     "fields": [
@@ -2431,7 +2459,7 @@
                 "when": [],
                 "then": [
                   {
-                    "id": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+                    "id": "be85fd36-c573-4b8e-bec8-4686493f32f3",
                     "title": "StockLevel (DCB)",
                     "type": "READMODEL",
                     "fields": [
@@ -2456,14 +2484,14 @@
                 ]
               },
               {
-                "id": "f1d6a8a1-4791-4d34-852d-249ec6f32d66",
+                "id": "bf378dbf-40da-4328-9e49-44121615b39e",
                 "title": "Available Items updated on Cart Submission",
                 "expectError": false,
                 "expectEmptyList": false,
                 "examples": [],
                 "given": [
                   {
-                    "id": "8911543d-d369-46d3-8114-24072c4f292c",
+                    "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
                     "title": "ProductStockSet",
                     "type": "EVENT",
                     "fields": [
@@ -2481,7 +2509,7 @@
                     ]
                   },
                   {
-                    "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
                     "title": "ItemAdded",
                     "type": "EVENT",
                     "fields": [
@@ -2508,7 +2536,7 @@
                     ]
                   },
                   {
-                    "id": "b567e52d-3371-4c63-859b-858ad0cfed86",
+                    "id": "a28772c8-de09-409e-a67e-58fc7ffed92c",
                     "title": "CartSubmitted",
                     "type": "EVENT",
                     "fields": [
@@ -2528,7 +2556,7 @@
                 "when": [],
                 "then": [
                   {
-                    "id": "2ddc501d-53ff-4cd6-af79-da8e9cab1b75",
+                    "id": "be85fd36-c573-4b8e-bec8-4686493f32f3",
                     "title": "StockLevel (DCB)",
                     "type": "READMODEL",
                     "fields": [
@@ -2556,20 +2584,20 @@
           }
         }
       },
-      "85d2e5f2-fdcb-487e-a9c8-56ac62764a26": {
+      "2c549a5a-329d-4ed8-9453-d5fed2da4a15": {
         "meta": {
           "type": "SCENARIO",
           "givenWhenThenScenario": {
             "scenarios": [
               {
-                "id": "481270c3-3b23-4aa1-8634-71b79a63a33b",
+                "id": "5c575b20-2df7-4886-bfae-d1dcc86397bd",
                 "title": "Not Enough Stock",
                 "expectError": true,
                 "expectEmptyList": false,
                 "examples": [],
                 "given": [
                   {
-                    "id": "8911543d-d369-46d3-8114-24072c4f292c",
+                    "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
                     "title": "ProductStockSet",
                     "type": "EVENT",
                     "fields": [
@@ -2587,7 +2615,7 @@
                     ]
                   },
                   {
-                    "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
                     "title": "ItemAdded",
                     "type": "EVENT",
                     "fields": [
@@ -2617,7 +2645,7 @@
                 ],
                 "when": [
                   {
-                    "id": "b139a758-125a-4db5-9985-ac474d906f86",
+                    "id": "88c7e0db-3d44-4807-83af-d449be285f77",
                     "title": "AddItem",
                     "type": "COMMAND",
                     "fields": [
@@ -2646,14 +2674,14 @@
                 "errorDescription": "Not enough stock"
               },
               {
-                "id": "537a44a0-a35e-4311-b083-6468232e507f",
+                "id": "5c0832cd-3374-4eaf-8b72-e09d13c80022",
                 "title": "Stock is available",
                 "expectError": false,
                 "expectEmptyList": false,
                 "examples": [],
                 "given": [
                   {
-                    "id": "8911543d-d369-46d3-8114-24072c4f292c",
+                    "id": "9cd09fea-88e1-4803-9a78-dff5b467962a",
                     "title": "ProductStockSet",
                     "type": "EVENT",
                     "fields": [
@@ -2673,7 +2701,7 @@
                 ],
                 "when": [
                   {
-                    "id": "b139a758-125a-4db5-9985-ac474d906f86",
+                    "id": "88c7e0db-3d44-4807-83af-d449be285f77",
                     "title": "AddItem",
                     "type": "COMMAND",
                     "fields": [
@@ -2699,7 +2727,7 @@
                 ],
                 "then": [
                   {
-                    "id": "6c8c46a5-b8dc-4ffe-99ef-63300dfb2cc0",
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
                     "title": "ItemAdded",
                     "type": "EVENT",
                     "fields": [
@@ -2731,13 +2759,546 @@
             ]
           }
         }
+      },
+      "d086d458-a07b-4c57-87fe-067b5fc053fd": {
+        "meta": {
+          "type": "SCENARIO",
+          "givenWhenThenScenario": {
+            "scenarios": [
+              {
+                "id": "dfb809ec-1611-45bc-89f3-5ce008426abe",
+                "title": "Customer already has an open cart",
+                "expectError": true,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "2fef4850-3ad5-46e2-85fb-aed67b1675a4",
+                    "title": "CreateCart",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      }
+                    ]
+                  }
+                ],
+                "then": [],
+                "description": "Inline projection prevents a second open cart for the same customer",
+                "errorDescription": "Customer 'Alice' already has an open cart"
+              },
+              {
+                "id": "5dbd8682-2585-4ccb-9900-08d8572d6bf0",
+                "title": "First cart for a new customer",
+                "expectError": false,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [],
+                "when": [
+                  {
+                    "id": "2fef4850-3ad5-46e2-85fb-aed67b1675a4",
+                    "title": "CreateCart",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      }
+                    ]
+                  }
+                ],
+                "then": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  }
+                ],
+                "description": "Happy case"
+              }
+            ]
+          }
+        }
+      },
+      "0f339fbd-51dd-4338-b049-15b8c0932eab": {
+        "meta": {
+          "type": "SCENARIO",
+          "givenWhenThenScenario": {
+            "scenarios": [
+              {
+                "id": "745b42d4-f954-4aa7-8d16-04b52b3a58ed",
+                "title": "Coupon already used by another cart",
+                "expectError": true,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "58baa040-f7b2-46e7-819e-190032988ba9",
+                    "title": "CouponApplied",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId",
+                        "example": "other"
+                      },
+                      {
+                        "name": "code",
+                        "example": "WELCOME10"
+                      },
+                      {
+                        "name": "at"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "29cb327b-8162-4439-b636-11cc5b5ea2c1",
+                    "title": "ApplyCoupon",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "code",
+                        "example": "WELCOME10"
+                      }
+                    ]
+                  }
+                ],
+                "then": [],
+                "description": "DCB single-use boundary: code can only be claimed once",
+                "errorDescription": "Coupon 'WELCOME10' has already been used"
+              },
+              {
+                "id": "fd68b632-bb96-4156-8960-303249715746",
+                "title": "First use of a coupon",
+                "expectError": false,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [],
+                "when": [
+                  {
+                    "id": "29cb327b-8162-4439-b636-11cc5b5ea2c1",
+                    "title": "ApplyCoupon",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "code",
+                        "example": "WELCOME10"
+                      }
+                    ]
+                  }
+                ],
+                "then": [
+                  {
+                    "id": "58baa040-f7b2-46e7-819e-190032988ba9",
+                    "title": "CouponApplied",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "code",
+                        "example": "WELCOME10"
+                      },
+                      {
+                        "name": "at"
+                      }
+                    ]
+                  }
+                ],
+                "description": "Happy case"
+              }
+            ]
+          }
+        }
+      },
+      "d2600c10-f14c-4085-81e5-9e167d29df6c": {
+        "meta": {
+          "type": "SCENARIO",
+          "givenWhenThenScenario": {
+            "scenarios": [
+              {
+                "id": "4b7d2bd6-716b-490c-bd46-2782933237d3",
+                "title": "Cart already submitted",
+                "expectError": true,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a28772c8-de09-409e-a67e-58fc7ffed92c",
+                    "title": "CartSubmitted",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId",
+                        "example": "a"
+                      },
+                      {
+                        "name": "submittedAt"
+                      },
+                      {
+                        "name": "totalAmount"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "c3eae468-b709-49c6-bd94-611affcbbb71",
+                    "title": "SubmitCart",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId",
+                        "example": "a"
+                      }
+                    ]
+                  }
+                ],
+                "then": [],
+                "errorDescription": "Cart already submitted"
+              },
+              {
+                "id": "1cfbbdec-08de-44b1-9b6d-b77d8ea98887",
+                "title": "Cannot submit an empty cart",
+                "expectError": true,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "c3eae468-b709-49c6-bd94-611affcbbb71",
+                    "title": "SubmitCart",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId",
+                        "example": "a"
+                      }
+                    ]
+                  }
+                ],
+                "then": [],
+                "errorDescription": "Cannot submit an empty cart"
+              },
+              {
+                "id": "7d354975-c91a-4f48-a1f1-07d8f493be80",
+                "title": "Submit cart with items",
+                "expectError": false,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
+                    "title": "ItemAdded",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "itemId"
+                      },
+                      {
+                        "name": "sku"
+                      },
+                      {
+                        "name": "displayName"
+                      },
+                      {
+                        "name": "quantity",
+                        "example": "2"
+                      },
+                      {
+                        "name": "unitPrice",
+                        "example": "10"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "c3eae468-b709-49c6-bd94-611affcbbb71",
+                    "title": "SubmitCart",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId",
+                        "example": "a"
+                      }
+                    ]
+                  }
+                ],
+                "then": [
+                  {
+                    "id": "a28772c8-de09-409e-a67e-58fc7ffed92c",
+                    "title": "CartSubmitted",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "submittedAt"
+                      },
+                      {
+                        "name": "totalAmount",
+                        "example": "20"
+                      }
+                    ]
+                  }
+                ],
+                "description": "Happy case \u2014 totalAmount derived from line totals"
+              }
+            ]
+          }
+        }
+      },
+      "e72607fe-de14-40ef-a84b-df4785580cda": {
+        "meta": {
+          "type": "SCENARIO",
+          "givenWhenThenScenario": {
+            "scenarios": [
+              {
+                "id": "aeddf1b3-2de1-4328-ab6b-25d30f0a8b58",
+                "title": "Item not in cart",
+                "expectError": true,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "f9d189d4-b536-484f-be6a-f58439d679d4",
+                    "title": "RemoveItem",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "itemId",
+                        "example": "missing"
+                      }
+                    ]
+                  }
+                ],
+                "then": [],
+                "errorDescription": "Item not in cart"
+              },
+              {
+                "id": "fc90477a-ec15-4dbd-986a-cf99019f72e3",
+                "title": "Remove existing item",
+                "expectError": false,
+                "expectEmptyList": false,
+                "examples": [],
+                "given": [
+                  {
+                    "id": "fb6e8a0d-7040-40f8-a02b-8c09780cb806",
+                    "title": "CartCreated",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "customerName",
+                        "example": "Alice"
+                      },
+                      {
+                        "name": "createdAt"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fed2706a-79bc-4c5a-976c-c7d50ffec40e",
+                    "title": "ItemAdded",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "itemId",
+                        "example": "x"
+                      },
+                      {
+                        "name": "sku",
+                        "example": "some-item"
+                      },
+                      {
+                        "name": "displayName"
+                      },
+                      {
+                        "name": "quantity",
+                        "example": "3"
+                      },
+                      {
+                        "name": "unitPrice"
+                      }
+                    ]
+                  }
+                ],
+                "when": [
+                  {
+                    "id": "f9d189d4-b536-484f-be6a-f58439d679d4",
+                    "title": "RemoveItem",
+                    "type": "COMMAND",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "itemId",
+                        "example": "x"
+                      }
+                    ]
+                  }
+                ],
+                "then": [
+                  {
+                    "id": "f40c85be-3f09-4e12-aa62-bc5af3ca9cb5",
+                    "title": "ItemRemoved",
+                    "type": "EVENT",
+                    "fields": [
+                      {
+                        "name": "cartId"
+                      },
+                      {
+                        "name": "itemId",
+                        "example": "x"
+                      },
+                      {
+                        "name": "sku",
+                        "example": "some-item"
+                      },
+                      {
+                        "name": "quantity",
+                        "example": "3"
+                      }
+                    ]
+                  }
+                ],
+                "description": "Happy case \u2014 releases the reservation"
+              }
+            ]
+          }
+        }
       }
     }
   },
   "images": {
-    "eb144759-2d17-40f4-ae86-797ee7c090a6": {}
+    "c3c1c7ad-58b8-44b4-9d4f-3b754811c687": {}
   },
   "nodeSnapshots": {
-    "eb144759-2d17-40f4-ae86-797ee7c090a6": {}
+    "c3c1c7ad-58b8-44b4-9d4f-3b754811c687": {}
   }
 }
