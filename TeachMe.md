@@ -56,11 +56,11 @@ resume across sessions, restart, or self-pace.
 2. If it doesn't exist → start a fresh walkthrough at Step 1. Create the
    file with `{"currentStep": 1, "completed": [], "started": "<now>",
    "lastTouched": "<now>"}`.
-3. If it exists and `currentStep <= 10` → greet the learner with what
+3. If it exists and `currentStep <= 9` → greet the learner with what
    they completed last and ask: *"You're on Step N (`<step-key>`). Want
    to **resume**, **restart from Step 1**, or **jump** to a specific
    step?"*
-4. If `completed` contains all ten step keys (see the list below) →
+4. If `completed` contains all nine step keys (see the list below) →
    *"You finished this walkthrough on `<lastTouched>`. Want to start
    over, or pick a single step to revisit?"*
 
@@ -87,7 +87,6 @@ they said "next step please"):
 7  dcbPrimitive
 8  multiTagBoundaries
 9  projectionLifecycles
-10 schemaEvolution
 ```
 
 **State file shape:**
@@ -354,33 +353,6 @@ bottom are worth flagging — that's the trap to avoid.
 Which lifecycle would you pick and why?" *(Answer: usually async or
 live, depending on read volume. The list isn't a write-path
 dependency, so inline is wasted cost.)*
-
-## Step 10 — Schema evolution (short detour)
-
-Once the patterns are absorbed, take a brief detour. Ask: *"What
-happens if we drop a property from an event after some have been
-written?"*
-
-Walk through the rules of thumb from this codebase's history:
-
-1. **Adding an optional field with a default** — edit the record in
-   place. `record CouponApplied(Guid CartId, CouponCode Code,
-   DateTimeOffset At, string Reason = "")` works.
-2. **Dropping a field** — usually safe. JSON keeps the value
-   unreachable; nothing breaks unless code still reads it.
-3. **Renaming or repurposing** — *don't*. Add a new event type, leave
-   the old one alone. Aggregates grow `Apply(Old)` AND `Apply(New)`.
-4. **Semantic change** — new event type, often a new name. Old events
-   stay honest about what they meant at the time.
-
-Upcasting exists as an escape hatch but is rarely the right call;
-prefer adding new event types.
-
-**Quiz:** "I want to add a `PromotionCode` field to `ItemAdded` so old
-events keep working. What's the safe move?" *(Answer: add the field
-with a default value — `string PromotionCode = ""`. Old JSON has no
-PromotionCode; deserialization uses the default. New writes include
-it.)*
 
 ---
 
