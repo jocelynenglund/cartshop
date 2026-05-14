@@ -5,6 +5,11 @@ vertical-slice event-sourced cart on Marten 8 + Wolverine 5 + .NET Aspire +
 Angular. Intended as a teaching example: the slices are deliberately thin so
 the consistency story is the visible thing.
 
+> 📖 **[Patterns catalog →](docs/PATTERNS.md)** — index of the patterns this
+> repo demonstrates (vertical slices, DCB, projection lifecycles, the five
+> expensive-projection categories), each linked to the slice that puts it
+> to work.
+
 Stack
 - .NET 10
 - Marten 8 — event store, inline snapshot projection, DCB tag tables
@@ -136,7 +141,7 @@ read and the write — across every cart, atomically:
 ```csharp
 var query = EventTagQuery
     .For(sku)
-    .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved>();
+    .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved, CartSubmitted>();
 
 IEventBoundary<InventoryView> boundary =
     await session.Events.FetchForWritingByTags<InventoryView>(query, ct);
@@ -150,8 +155,40 @@ catch (DcbConcurrencyException) { return Results.Conflict(...); }
 ```
 
 `InventoryView` is a live fold of `ProductStockSet` / `ItemAdded` /
-`ItemRemoved` across every stream — no per-stream snapshot needed, and no
-ad-hoc lock or queue. The consistency comes from the tag boundary alone.
+`ItemRemoved` / `CartSubmitted` across every stream — no per-stream snapshot
+needed, and no ad-hoc lock or queue. The consistency comes from the tag
+boundary alone.
+
+### Stock vs. Reserved vs. Available
+
+Three numbers, kept honest by the four events that fold into the view:
+
+| Event           | Effect                              |
+|-----------------|-------------------------------------|
+| `ProductStockSet` | `Stock = n` (physical units on hand) |
+| `ItemAdded`       | `Reserved += qty` (held but not sold) |
+| `ItemRemoved`     | `Reserved -= qty` (released) |
+| `CartSubmitted`   | `Stock -= qty`, `Reserved -= qty` (sold; consumed) |
+
+`Available = Stock − Reserved`. After a submit, `Available` doesn't move —
+what changes is *which side of the ledger* the units sit on. `Stock` is
+what's physically left; `Reserved` is what's still pending in open carts.
+
+### One event, multiple boundaries
+
+`CartSubmitted` is a single cart-stream event, but a cart can hold many
+SKUs. `SubmitCart` tags the event with **every Sku in the cart** at append
+time:
+
+```csharp
+var tagged = new Event<CartSubmitted>(evt);
+foreach (var sku in cart.Lines.Select(l => l.Sku).Distinct())
+    tagged.AddTag(sku);
+```
+
+Each per-SKU `InventoryView` fold then sees the same event independently
+and updates its own state. The tag *is* the consistency boundary; one
+event can join more than one.
 
 ## Running
 
@@ -189,8 +226,11 @@ systemctl --user start podman.socket
 | DELETE | `/api/carts/{id}/items/{itemId}`      | RemoveItem           |
 | POST   | `/api/carts/{id}/submit`              | SubmitCart           |
 | GET    | `/api/carts/submitted`                | ListSubmittedCarts   |
+| GET    | `/api/carts/{id}/timeline`            | CartTimeline (live)  |
+| POST   | `/api/carts/{id}/coupon`              | ApplyCoupon (DCB)    |
 | POST   | `/api/inventory/{sku}`                | SetStock             |
 | GET    | `/api/inventory/{sku}`                | StockLevel           |
+| GET    | `/api/reports/sales-by-day`           | SalesByDay (async)   |
 
 `GET /openapi/v1.json` returns the live schema in development.
 
@@ -221,3 +261,57 @@ curl -X POST localhost:5270/api/carts/$CART2/items \
 
 That rejection is the DCB boundary doing its job: two independent cart streams,
 one atomic inventory invariant.
+
+### Concurrent race — the harder case
+
+The walk-through above is *sequential*: Cart 1 finishes before Cart 2 starts. A
+plain aggregate could handle that too. The unique value of DCB is the
+*simultaneous* case — two requests both read enough stock, both decide to
+reserve, and the boundary catches the loser at `SaveChangesAsync` with a
+`DcbConcurrencyException` → `409`.
+
+```bash
+# Stock exactly 1 unit; race two carts for it.
+curl -X POST localhost:5270/api/inventory/SKU-RARE \
+     -H 'content-type: application/json' -d '{"quantity":1}'
+
+CART_A=$(curl -sX POST localhost:5270/api/carts \
+         -H 'content-type: application/json' \
+         -d '{"customerName":"Alice"}' | jq -r .cartId)
+CART_B=$(curl -sX POST localhost:5270/api/carts \
+         -H 'content-type: application/json' \
+         -d '{"customerName":"Bob"}' | jq -r .cartId)
+
+# Fire both in parallel.
+curl -sX POST "localhost:5270/api/carts/$CART_A/items" \
+     -H 'content-type: application/json' \
+     -d '{"sku":"SKU-RARE","quantity":1,"unitPrice":99}' &
+curl -sX POST "localhost:5270/api/carts/$CART_B/items" \
+     -H 'content-type: application/json' \
+     -d '{"sku":"SKU-RARE","quantity":1,"unitPrice":99}' &
+wait
+# → one 200, one 409 { "error": "Stock changed while reserving; retry." }
+```
+
+That 409 is the `catch (DcbConcurrencyException)` arm of `AddItem` firing.
+Without DCB, both writes would land and you'd oversell by exactly one.
+
+### Coupon code — DCB on a different shape of rule
+
+Inventory is a *numeric balance* rule. The `ApplyCoupon` slice demonstrates
+DCB on a *one-shot* rule: a coupon code can be applied at most once across
+every cart in the system.
+
+```bash
+# Two carts race the same coupon code.
+curl -sX POST "localhost:5270/api/carts/$CART_A/coupon" \
+     -H 'content-type: application/json' -d '{"code":"WELCOME10"}' &
+curl -sX POST "localhost:5270/api/carts/$CART_B/coupon" \
+     -H 'content-type: application/json' -d '{"code":"WELCOME10"}' &
+wait
+# → one 200, one 409 { "error": "Coupon 'WELCOME10' has already been used" }
+```
+
+Same mechanism (`FetchForWritingByTags<CouponUsageView>` → decide → append →
+save), different invariant shape. That's the point: DCB is a primitive, not
+a single trick.

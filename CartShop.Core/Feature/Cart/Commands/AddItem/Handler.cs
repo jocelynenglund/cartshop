@@ -20,62 +20,59 @@ public static class AddItemEndpoint
         IDocumentSession session,
         CancellationToken ct)
     {
-        if (request.Quantity <= 0) return Results.BadRequest(new { error = "Quantity must be > 0" });
-        if (request.UnitPrice < 0) return Results.BadRequest(new { error = "UnitPrice must be >= 0" });
-        if (string.IsNullOrWhiteSpace(request.Sku)) return Results.BadRequest(new { error = "Sku is required" });
+        if (string.IsNullOrWhiteSpace(request.Sku))
+            return Results.BadRequest(new { error = "Sku is required" });
 
         var sku = new Sku(request.Sku.Trim());
 
-        // Build a tag query covering every event that affects this SKU's
-        // inventory: stock changes, additions, removals — across every cart.
+        // Cross-stream invariant boundary: every event affecting this SKU's
+        // inventory across every cart. If a matching event is appended between
+        // now and SaveChangesAsync, Marten throws DcbConcurrencyException.
         var inventoryQuery = EventTagQuery
             .For(sku)
-            .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved>();
+            .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved, CartSubmitted>();
 
-        // Fold those events into an InventoryView and establish a DCB write
-        // boundary. If any matching event is appended between now and
-        // SaveChangesAsync, Marten throws DcbConcurrencyException.
         IEventBoundary<InventoryView> boundary =
             await session.Events.FetchForWritingByTags<InventoryView>(inventoryQuery, ct);
 
-        var inventory = boundary.Aggregate;
-        if (inventory is null || inventory.Sku is null)
+        if (boundary.Aggregate is null)
             return Results.BadRequest(new { error = $"No stock recorded for sku '{request.Sku}'" });
 
-        if (inventory.Available < request.Quantity)
-            return Results.BadRequest(new
-            {
-                error = "Insufficient stock",
-                sku = sku.Value,
-                requested = request.Quantity,
-                available = inventory.Available
-            });
-
-        var evt = new ItemAdded(
-            cartId,
-            Guid.NewGuid(),
-            sku,
-            (request.DisplayName ?? request.Sku).Trim(),
-            request.Quantity,
-            request.UnitPrice);
-
-        // Wrap in IEvent so we can attach the Sku as a DCB tag. The tag row is
-        // written in the same INSERT batch as the event row, which is what
-        // makes the SaveChangesAsync consistency check correct.
-        var tagged = new Event<ItemAdded>(evt);
-        tagged.AddTag(sku);
-
-        session.Events.Append(cartId, tagged);
+        // Single-stream invariant boundary: cart must exist and be open.
+        var cart = await session.LoadAsync<CartAggregate>(cartId, ct);
+        if (cart is null) return Results.NotFound();
 
         try
         {
+            boundary.Aggregate.EnsureCanReserve(request.Quantity);
+            var evt = cart.AddLine(sku, (request.DisplayName ?? request.Sku).Trim(), request.Quantity, request.UnitPrice);
+
+            var tagged = new Event<ItemAdded>(evt);
+            tagged.AddTag(sku);
+            session.Events.Append(cartId, tagged);
+
             await session.SaveChangesAsync(ct);
+            return Results.Ok(evt);
+        }
+        catch (InsufficientStock ex)
+        {
+            return Results.BadRequest(new { error = "Insufficient stock", sku = ex.Sku, requested = ex.Requested, available = ex.Available });
+        }
+        catch (InventoryRuleViolation ex)
+        {
+            return Results.BadRequest(new { error = ex.Message });
+        }
+        catch (CartAlreadySubmitted ex)
+        {
+            return Results.Conflict(new { error = ex.Message });
+        }
+        catch (CartRuleViolation ex)
+        {
+            return Results.BadRequest(new { error = ex.Message });
         }
         catch (DcbConcurrencyException)
         {
             return Results.Conflict(new { error = "Stock changed while reserving; retry." });
         }
-
-        return Results.Ok(evt);
     }
 }

@@ -19,7 +19,7 @@ public static class StockLevelEndpoint
     {
         var query = EventTagQuery
             .For(new Sku(sku))
-            .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved>();
+            .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved, CartSubmitted>();
 
         var view = await session.Events.AggregateByTagsAsync<InventoryView>(query, ct);
         if (view is null || view.Sku is null)

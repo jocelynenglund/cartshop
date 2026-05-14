@@ -1,6 +1,9 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var postgres = builder.AddPostgres("postgres")
+var pgUser = builder.AddParameter("pg-user", "postgres");
+var pgPassword = builder.AddParameter("pg-password", "cartshop-dev", secret: true);
+
+var postgres = builder.AddPostgres("postgres", userName: pgUser, password: pgPassword, port: 5432)
     .WithDataVolume("cartshop-pgdata")
     .WithPgAdmin();
 

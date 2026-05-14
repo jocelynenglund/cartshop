@@ -1,5 +1,3 @@
-using System.Security.Cryptography;
-using System.Text;
 using CartShop.Events;
 using JasperFx.Events;
 using Marten;
@@ -12,6 +10,11 @@ public record SetStockRequest(int Quantity);
 
 public static class SetStockEndpoint
 {
+    // Single shared stream for all inventory events. With DCB, the Sku tag —
+    // not the stream — is the consistency boundary, so the stream id here is
+    // just a write buffer.
+    private static readonly Guid InventoryStreamId = new("11111111-1111-1111-1111-111111111111");
+
     [WolverinePost("/api/inventory/{sku}")]
     public static async Task<IResult> Handle(
         string sku,
@@ -24,30 +27,20 @@ public static class SetStockEndpoint
         if (request.Quantity < 0)
             return Results.BadRequest(new { error = "quantity must be >= 0" });
 
-        var skuValue = new Sku(sku);
-        var streamId = ProductStreamId(sku);
-        var evt = new ProductStockSet(skuValue, request.Quantity, DateTimeOffset.UtcNow);
+        var evt = new ProductStockSet(new Sku(sku), request.Quantity, DateTimeOffset.UtcNow);
 
         // Wrap into IEvent so we can attach a DCB tag explicitly. Marten reads
         // the tags from the IEvent metadata when persisting (regular Append
         // doesn't fire tag-property inference).
         var tagged = new Event<ProductStockSet>(evt);
-        tagged.AddTag(skuValue);
+        tagged.AddTag(new Sku(sku));
 
-        var existing = await session.Events.FetchStreamStateAsync(streamId, ct);
-        if (existing is null) session.Events.StartStream(streamId, tagged);
-        else session.Events.Append(streamId, tagged);
+        var existing = await session.Events.FetchStreamStateAsync(InventoryStreamId, ct);
+        if (existing is null) session.Events.StartStream(InventoryStreamId, tagged);
+        else session.Events.Append(InventoryStreamId, tagged);
 
         await session.SaveChangesAsync(ct);
 
         return Results.Ok(new { sku, stock = request.Quantity });
-    }
-
-    // Deterministic Guid per SKU so SetStock for the same SKU always hits the
-    // same stream.
-    internal static Guid ProductStreamId(string sku)
-    {
-        var bytes = SHA256.HashData(Encoding.UTF8.GetBytes("product:" + sku));
-        return new Guid(bytes.AsSpan(0, 16).ToArray());
     }
 }

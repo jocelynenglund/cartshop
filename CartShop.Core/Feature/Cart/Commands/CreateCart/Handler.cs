@@ -1,5 +1,4 @@
 using CartShop.Core.Domain;
-using CartShop.Events;
 using Marten;
 using Microsoft.AspNetCore.Http;
 using Wolverine.Http;
@@ -18,15 +17,32 @@ public static class CreateCartEndpoint
         IDocumentSession session,
         CancellationToken ct)
     {
-        if (string.IsNullOrWhiteSpace(request.CustomerName))
-            return Results.BadRequest(new { error = "CustomerName is required" });
-
         var cartId = Guid.NewGuid();
-        var created = new CartCreated(cartId, request.CustomerName.Trim(), DateTimeOffset.UtcNow);
 
-        session.Events.StartStream<CartAggregate>(cartId, created);
-        await session.SaveChangesAsync(ct);
+        try
+        {
+            var created = CartAggregate.Create(cartId, request.CustomerName);
 
-        return Results.Created($"/api/carts/{cartId}", new CreateCartResponse(cartId));
+            // Inline-projection-backed uniqueness check. Because
+            // OpenCartByCustomerProjection runs in the same transaction as
+            // its events, the previous CreateCart's commit is visible here.
+            var normalized = OpenCartByCustomer.Normalize(created.CustomerName);
+            var alreadyOpen = await session.Query<OpenCartByCustomer>()
+                .AnyAsync(c => c.CustomerNameNormalized == normalized, ct);
+            if (alreadyOpen)
+                throw new CustomerAlreadyHasOpenCart(created.CustomerName);
+
+            session.Events.StartStream<CartAggregate>(cartId, created);
+            await session.SaveChangesAsync(ct);
+            return Results.Created($"/api/carts/{cartId}", new CreateCartResponse(cartId));
+        }
+        catch (CustomerAlreadyHasOpenCart ex)
+        {
+            return Results.Conflict(new { error = ex.Message });
+        }
+        catch (CartRuleViolation ex)
+        {
+            return Results.BadRequest(new { error = ex.Message });
+        }
     }
 }

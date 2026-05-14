@@ -1,6 +1,9 @@
 using CartShop.Core.Domain;
 using CartShop.Events;
+using JasperFx;
 using JasperFx.Events;
+using JasperFx.Events.Daemon;
+using JasperFx.Events.Projections;
 using Marten;
 using Marten.Events.Projections;
 using Microsoft.Extensions.Configuration;
@@ -33,18 +36,40 @@ public static class Initialization
                 // get reordered relative to tag inserts, leaving tags empty.
                 opts.Events.AppendMode = EventAppendMode.Quick;
 
-                // Self-aggregating snapshot of CartAggregate kept up-to-date inline.
+                // Inline: snapshot of CartAggregate updated in the same
+                // transaction as the events. Read-after-write consistency for
+                // GetCart / ListSubmittedCarts.
                 opts.Projections.Snapshot<CartAggregate>(SnapshotLifecycle.Inline);
 
-                // Register Sku as a Marten DCB tag type. Any event with a Sku
-                // property is then automatically tagged and participates in
-                // cross-stream consistency queries (see AddItem slice).
+                // Inline (custom): one-open-cart-per-customer lookup. Must be
+                // consistent with the previous write so CreateCart can reject
+                // a duplicate customer in the same request that follows.
+                opts.Projections.Add<OpenCartByCustomerProjection>(ProjectionLifecycle.Inline);
+
+                // Index the customer-name lookup column so the uniqueness query
+                // is fast (CreateCart hits it on the write path).
+                opts.Schema.For<OpenCartByCustomer>()
+                    .Index(x => x.CustomerNameNormalized);
+
+                // Async: SalesByDay rollup runs in the background daemon.
+                // Tolerates lag; aggregates across every cart stream.
+                opts.Projections.Add<SalesByDayProjection>(ProjectionLifecycle.Async);
+
+                // (CartTimeline is a *live* projection — built on demand in
+                // the query handler from FetchStreamAsync; nothing to register.)
+
+                // Register Sku and CouponCode as Marten DCB tag types. Any event
+                // with one of these properties is then automatically tagged and
+                // participates in cross-stream consistency queries (see AddItem
+                // and ApplyCoupon slices).
                 opts.Events.RegisterTagType<Sku>();
+                opts.Events.RegisterTagType<CouponCode>();
 
                 return opts;
             })
             .UseLightweightSessions()
             .IntegrateWithWolverine()
+            .AddAsyncDaemon(DaemonMode.Solo)
             .ApplyAllDatabaseChangesOnStartup();
 
         builder.UseWolverine(opts =>
