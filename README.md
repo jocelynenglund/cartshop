@@ -44,11 +44,16 @@ Stack
 ## Event model
 
 The Nebulit canvas under [`docs/CartShop_DCB_Inventory-2026-05-14.json`](docs/CartShop_DCB_Inventory-2026-05-14.json)
-captures the full flow. The key visual cue is the **red edges around
-`StockLevel (DCB)`** (and `CouponUsage (DCB)`): every event feeding the
-read model is red, and the edge from the read model back into the command
-(`AddItem` / `ApplyCoupon`) is red too. Red = this is a cross-stream
-consistency boundary in play.
+captures the full flow. Three edge colors carry the consistency story:
+
+- 🔴 **Red, with `!`** — the *gate*. `StockLevel (DCB) → AddItem`,
+  `CouponUsage (DCB) → ApplyCoupon`, `OpenCartByCustomer → CreateCart`.
+  Read this as: "before the command on the right can write, it must
+  consult the view on the left."
+- 🟠 **Orange** — events that *feed* a DCB view (their SKU or coupon-code
+  tags fold into the view). These participate in the boundary but don't
+  gate a specific write themselves.
+- 🔵 **Blue** — ordinary projection fan-out, no consistency stake.
 
 ![Event model — DCB cart submission](docs/event-model.png)
 

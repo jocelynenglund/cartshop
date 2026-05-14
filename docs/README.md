@@ -54,17 +54,21 @@ new slices if needed, and re-export the PNG.
 
 When reading the diagram:
 
-- **Red edges** mark anything that touches a **DCB read model** — both
-  the feed edges (events into the view) and the gate edge (view back
-  into the command). Red = consistency boundary in play.
-- **Blue/gray edges** are ordinary event-to-projection fan-out. No
-  consistency gate; eventual consistency or read-only display.
+Three colors, three meanings:
 
-> ⚠ Edges deliberately have **no caption** on the gate. Nebulit's `!`
-> marker carries a separate meaning in the canvas — *"some properties
-> aren't mapped in dependencies."* Using `!` to mark a DCB gate would
-> render as a false warning, so the generator omits it. Red color alone
-> conveys "consistency boundary."
+- 🔴 **Red, `!` caption — Gate.** The command on the receiving end must
+  consult the read model and pass the rule before its event can append.
+  Used on `StockLevel (DCB) → AddItem`, `CouponUsage (DCB) → ApplyCoupon`,
+  and `OpenCartByCustomer → CreateCart`. (Nebulit's `!` natively flags
+  "unmapped properties in dependencies" — we knowingly overload it to
+  mean "gate." Same symbol, broader meaning in this repo.)
+- 🟠 **Orange — DCB feed.** Events whose tags participate in the DCB
+  boundary, folding into the read model. Distinct from a gate (these
+  don't block a write) and from ordinary fan-out (they're load-bearing
+  for the consistency check).
+- 🔵 **Blue/gray — ordinary.** Plain projection fan-out into a
+  non-DCB read model. No consistency stake; eventual consistency or
+  read-only display.
 
 Scenarios in the Spec Lane row with a **red border** are `expectError`
 cases ("this should fail"). Plain-bordered scenarios are happy-path or
