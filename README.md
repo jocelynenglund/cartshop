@@ -43,9 +43,12 @@ Stack
 
 ## Event model
 
-The Nebulit canvas under [`docs/`](docs/CartShop_DCB_Inventory-2026-05-13.json)
-captures the full flow. The key shape is the red `!` edge from
-`StockLevel (DCB)` into `AddItem`: that's the cross-stream consistency check.
+The Nebulit canvas under [`docs/CartShop_DCB_Inventory-2026-05-14.json`](docs/CartShop_DCB_Inventory-2026-05-14.json)
+captures the full flow. The key visual cue is the **red edges around
+`StockLevel (DCB)`** (and `CouponUsage (DCB)`): every event feeding the
+read model is red, and the edge from the read model back into the command
+(`AddItem` / `ApplyCoupon`) is red too. Red = this is a cross-stream
+consistency boundary in play.
 
 ![Event model — DCB cart submission](docs/event-model.png)
 
@@ -57,24 +60,26 @@ Read the diagram top-down per column:
 - **Inventory Events** swimlane — `ProductStockSet` lives in its own
   `product-{sku}` stream, in a different swimlane to make the cross-stream
   nature obvious.
-- **Spec Lane** — notes anchoring how the DCB tag+boundary plumbing actually
-  works.
+- **Spec Lane** — given/when/then scenarios anchored to the command or
+  read model they describe.
+- **Feedback row** — markdown notes explaining the DCB tag plumbing and
+  projection-lifecycle choices.
 
 The interesting node is `StockLevel (DCB)`. It's a *live fold* over every event
 tagged with the same SKU, regardless of which stream the event came from:
 
 ```
 EventTagQuery.For(sku)
-  .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved>()
+  .AndEventsOfType<ProductStockSet, ItemAdded, ItemRemoved, CartSubmitted>()
 ```
 
 `AddItem` reads it through Marten's DCB boundary, and `SaveChangesAsync` throws
 `DcbConcurrencyException` if any other Sku-tagged event lands between the read
 and the write.
 
-Compare with `GetCart` (col 5): no `!` edge, because it's a Marten **inline
-snapshot** built from a single stream — the stream's own version number is the
-consistency boundary, so no cross-stream check is needed.
+Compare with `GetCart`: blue edges throughout, because it's a Marten
+**inline snapshot** built from a single stream — the stream's own version
+number is the consistency boundary, so no cross-stream check is needed.
 
 ## Layout
 

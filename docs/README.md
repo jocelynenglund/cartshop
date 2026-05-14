@@ -54,11 +54,17 @@ new slices if needed, and re-export the PNG.
 
 When reading the diagram:
 
-- **Red edges** mark anything that touches a **DCB read model** — both the
-  `!` gate from the view into the command, and the feed edges from events
-  into the view. Red = consistency boundary in play.
+- **Red edges** mark anything that touches a **DCB read model** — both
+  the feed edges (events into the view) and the gate edge (view back
+  into the command). Red = consistency boundary in play.
 - **Blue/gray edges** are ordinary event-to-projection fan-out. No
   consistency gate; eventual consistency or read-only display.
+
+> ⚠ Edges deliberately have **no caption** on the gate. Nebulit's `!`
+> marker carries a separate meaning in the canvas — *"some properties
+> aren't mapped in dependencies."* Using `!` to mark a DCB gate would
+> render as a false warning, so the generator omits it. Red color alone
+> conveys "consistency boundary."
 
 Scenarios in the Spec Lane row with a **red border** are `expectError`
 cases ("this should fail"). Plain-bordered scenarios are happy-path or
