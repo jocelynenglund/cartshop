@@ -10,6 +10,29 @@ the consistency story is the visible thing.
 > expensive-projection categories), each linked to the slice that puts it
 > to work.
 
+> 🎓 **[Guided walkthrough →](TeachMe.md)** — a nine-step syllabus written
+> as instructions to an AI tour guide. Paces itself to your questions,
+> quizzes after each step, saves progress between sessions.
+
+## Use the walkthrough with any LLM tool
+
+`TeachMe.md` is plain markdown; any chat-driven coding tool can run it.
+The only piece that's editor-specific is *how you point the agent at the
+file*:
+
+| Tool | Invocation |
+|---|---|
+| **Claude Code** | `/teachme` (auto-discovered slash command in `.claude/commands/`) |
+| **GitHub Copilot Chat** | The repo ships `.github/copilot-instructions.md` — just say *"teach me this repo"* or *"give me a tour"* in chat |
+| **Cursor** | The repo ships `.cursorrules` with the same hint — say *"teach me this repo"* in Composer/Chat |
+| **Cline / Continue / Aider / generic terminal agent** | Tell it: *"Read TeachMe.md and follow it as a syllabus to walk me through the codebase."* |
+| **Plain ChatGPT / Claude.ai / Gemini (no file system)** | Paste `TeachMe.md` plus a few relevant code files (`README.md`, `Initialization.cs`, one handler) into the chat. Walkthrough works but degrades — the agent can't open files on demand. |
+
+**Progress tracking** (`~/.cartshop-teachme.json`) needs filesystem
+access. It works in agent-mode tools (Claude Code, Cursor, Cline, Aider).
+In pure chat tools without shell access, the syllabus still runs but
+progress lives only in the conversation history.
+
 Stack
 - .NET 10
 - Marten 8 — event store, inline snapshot projection, DCB tag tables

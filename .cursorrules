@@ -1,0 +1,43 @@
+# Cursor rules for CartShop
+
+CartShop is a teaching reference for event sourcing + DCB (Dynamic
+Consistency Boundary) on Marten 8 / Wolverine 5 / .NET 10 Aspire +
+Angular 21. Vertical-slice layout: one file per command or query under
+`CartShop.Core/Feature/<Aggregate>/(Commands|Queries)/<Name>/Handler.cs`,
+DTOs colocated with the handler.
+
+## Guided walkthrough
+
+If the user asks for a **tour**, **walkthrough**, **intro**, or to be
+**taught the repo** — or simply says *"teach me"* — read `TeachMe.md`
+at the repo root and follow it as a syllabus. It contains:
+
+- The nine-step path through the codebase (big picture → DCB → projection
+  lifecycles).
+- Pacing rules: walk one step at a time, quiz after each, wait for the
+  learner's questions before advancing.
+- A progress-tracking protocol that reads/writes
+  `~/.cartshop-teachme.json` so the walkthrough resumes across sessions.
+
+Don't dump the syllabus on the user. Pace it.
+
+## Codebase conventions
+
+- One slice = one file. No controllers, no MediatR, no central route
+  table — Wolverine.Http discovers endpoints by attribute.
+- Aggregates own their invariants via decision methods that return
+  events (`CartAggregate.Submit()`, `InventoryView.EnsureCanReserve()`).
+- Handlers reduce to **load → decide → append → save**.
+- Domain rule violations are typed exceptions caught at the HTTP edge.
+- Events are plain `record` types in `CartShop.Events`. Field changes:
+  add with defaults, drop if unused, never rename in place — prefer a
+  new event type for semantic changes.
+
+## Background reading
+
+For tradeoff questions, ground your answers in:
+
+- `README.md` — DCB story + slice pattern.
+- `docs/PATTERNS.md` — projection lifecycles (inline / async / live),
+  the four-step DCB pattern, and the five "don't use inline" categories.
+- `CLAUDE.md` — team conventions for adding new slices.
