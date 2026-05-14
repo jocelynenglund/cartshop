@@ -8,7 +8,6 @@ Where this repo's event-model lives, how to view it, and how to regenerate it.
 |---|---|
 | [`event-model.png`](event-model.png) | The rendered diagram embedded in the root README. Re-export after canvas edits. |
 | [`CartShop_DCB_Inventory-2026-05-14.json`](CartShop_DCB_Inventory-2026-05-14.json) | Current Nebulit canvas source. Import this into the canvas to view/edit. |
-| [`CartShop_DCB_Inventory-2026-05-13.json`](CartShop_DCB_Inventory-2026-05-13.json) | Previous snapshot, kept for reference. Not the live source. |
 | [`PATTERNS.md`](PATTERNS.md) | Patterns catalog (slices, DCB, projection lifecycles, the five "don't use inline" categories). |
 
 ## Viewing the model
