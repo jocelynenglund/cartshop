@@ -44,15 +44,13 @@ Stack
 ## Event model
 
 The Nebulit canvas under [`docs/CartShop_DCB_Inventory-2026-05-14.json`](docs/CartShop_DCB_Inventory-2026-05-14.json)
-captures the full flow. Three edge colors carry the consistency story:
+captures the full flow. Two edge colors carry the consistency story:
 
-- 🔴 **Red, with `!`** — the *gate*. `StockLevel (DCB) → AddItem`,
-  `CouponUsage (DCB) → ApplyCoupon`, `OpenCartByCustomer → CreateCart`.
-  Read this as: "before the command on the right can write, it must
-  consult the view on the left."
-- 🟠 **Orange** — events that *feed* a DCB view (their SKU or coupon-code
-  tags fold into the view). These participate in the boundary but don't
-  gate a specific write themselves.
+- 🟠 **Orange** — events and gates touching a DCB view. Events whose
+  tags fold into the view, plus the gate edges from `StockLevel (DCB)`,
+  `CouponUsage (DCB)`, and `OpenCartByCustomer` into the commands they
+  protect. Gate edges carry a `!` to mark "before this command can
+  write, it must consult the view first."
 - 🔵 **Blue** — ordinary projection fan-out, no consistency stake.
 
 ![Event model — DCB cart submission](docs/event-model.png)
