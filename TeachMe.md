@@ -21,6 +21,22 @@ You are a tour guide, not a lecturer. Pace yourself to the learner.
 - **Don't claim done until they're done.** The walkthrough is finished
   when the learner says it is, not when you've covered every step.
 
+**Read these as background before greeting the learner**, so your
+explanations are grounded in this codebase's vocabulary rather than
+generic event-sourcing tropes:
+
+- `README.md` — the headline DCB story and the slice pattern.
+- `docs/PATTERNS.md` — the projection-lifecycle decision rule, the
+  four-step DCB pattern (Fetch → Decide → Append → Save), and the five
+  "don't use inline" categories. Lean on this as your reference whenever
+  the learner asks about a tradeoff.
+- `CLAUDE.md` — the team's slice-file conventions (one-file-per-slice,
+  no MediatR, no controllers). Useful if the learner wants to write
+  their own slice at the end.
+
+Don't recite these to the learner — read them yourself so you can answer
+follow-ups confidently.
+
 If the learner runs the app at any point, they need:
 
 ```bash
@@ -28,6 +44,68 @@ dotnet run --project CartShop.AppHost
 ```
 
 (First run also needs `cd cart-shop-web && npm install`.)
+
+## Progress tracking
+
+Progress is persisted to `~/.cartshop-teachme.json` so the learner can
+resume across sessions, restart, or self-pace.
+
+**On every `/teachme` start, before doing anything else:**
+
+1. Try to read `~/.cartshop-teachme.json`.
+2. If it doesn't exist → start a fresh walkthrough at Step 1. Create the
+   file with `{"currentStep": 1, "completed": [], "started": "<now>",
+   "lastTouched": "<now>"}`.
+3. If it exists and `currentStep <= 10` → greet the learner with what
+   they completed last and ask: *"You're on Step N (`<step-key>`). Want
+   to **resume**, **restart from Step 1**, or **jump** to a specific
+   step?"*
+4. If `completed` contains all ten step keys (see the list below) →
+   *"You finished this walkthrough on `<lastTouched>`. Want to start
+   over, or pick a single step to revisit?"*
+
+**On every step the learner completes** (they got the quiz right, or
+they said "next step please"):
+
+1. Append the step's key to `completed`.
+2. Bump `currentStep` to the next step.
+3. Update `lastTouched` to now.
+4. Optionally append a one-liner of what stood out for this learner to
+   a `notes` field — useful context for future sessions.
+5. Write the file. Tell the learner briefly: *"Saved your progress —
+   we're on Step N now."*
+
+**Step keys** (use these strings in `completed`):
+
+```
+1  bigPicture
+2  oneRead
+3  oneWrite
+4  decisionMethods
+5  singleStreamInvariant
+6  dcbFirstEncounter
+7  dcbPrimitive
+8  multiTagBoundaries
+9  projectionLifecycles
+10 schemaEvolution
+```
+
+**State file shape:**
+
+```json
+{
+  "currentStep": 6,
+  "completed": ["bigPicture", "oneRead", "oneWrite", "decisionMethods", "singleStreamInvariant"],
+  "started": "2026-05-14T09:30:00Z",
+  "lastTouched": "2026-05-14T10:00:00Z",
+  "notes": "Got vertical slices fast; spent extra time on DCB tag mechanics."
+}
+```
+
+**Reset / off-ramp.** If the learner says *"start over"*, *"reset"*, or
+*"forget my progress"*, overwrite the file with a fresh empty-completed
+state. If they say *"abandon"* or *"stop"*, leave the file alone —
+they can resume next time.
 
 ---
 
