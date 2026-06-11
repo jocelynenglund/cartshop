@@ -13,6 +13,14 @@
     <PackageReference Include="WolverineFx.Marten" Version="6.7.0" />
   </ItemGroup>
 
+  <!-- Wolverine 6 extracted runtime code generation from core WolverineFx.
+       Referencing this package re-registers the Roslyn assembly generator so
+       the default TypeLoadMode.Dynamic keeps working as it did in v5. The
+       alternative is static codegen (see wolverinefx.net/guide/codegen). -->
+  <ItemGroup>
+    <PackageReference Include="WolverineFx.RuntimeCompilation" Version="6.7.0" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\CartShop.Core\CartShop.Core.csproj" />
     <ProjectReference Include="..\CartShop.ServiceDefaults\CartShop.ServiceDefaults.csproj" />
