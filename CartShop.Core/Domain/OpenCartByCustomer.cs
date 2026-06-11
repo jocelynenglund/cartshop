@@ -21,7 +21,11 @@ public class OpenCartByCustomer
 
 // SingleStreamProjection because one cart stream = one OpenCartByCustomer
 // row (while open). CartCreated produces it; CartSubmitted deletes it.
-public class OpenCartByCustomerProjection : SingleStreamProjection<OpenCartByCustomer, Guid>
+// `partial` required by Marten 9: convention-method projection subclasses
+// (Create/Apply/ShouldDelete) are dispatched by a compile-time source
+// generator, not runtime codegen, and the generator emits the other half
+// of this class.
+public partial class OpenCartByCustomerProjection : SingleStreamProjection<OpenCartByCustomer, Guid>
 {
     public OpenCartByCustomerProjection()
     {

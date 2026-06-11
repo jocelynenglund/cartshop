@@ -20,7 +20,9 @@ public class SalesByDay
 // bucket. MultiStreamProjection because the identity (day) is derived from
 // event data, not from the source stream id — many cart streams contribute
 // to one SalesByDay doc.
-public class SalesByDayProjection : MultiStreamProjection<SalesByDay, string>
+// `partial` required by Marten 9: convention-method projection subclasses
+// are dispatched by a compile-time source generator (no runtime codegen).
+public partial class SalesByDayProjection : MultiStreamProjection<SalesByDay, string>
 {
     public SalesByDayProjection()
     {
