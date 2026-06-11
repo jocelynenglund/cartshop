@@ -1,4 +1,5 @@
 using CartShop.Events;
+using JasperFx.Events.Aggregation;
 
 namespace CartShop.Core.Domain;
 
@@ -13,6 +14,10 @@ public sealed class CouponAlreadyUsed(string code)
 // Note the symmetry with InventoryView — same shape (fields + Apply + an
 // invariant-asserting method), different rule. That's the point: DCB is a
 // primitive, not a one-trick pattern.
+//
+// [BoundaryAggregate]: identity-less DCB view (keyed by the CouponCode tag,
+// no Id) — required in Marten 9 so the source generator emits its dispatcher.
+[BoundaryAggregate]
 public class CouponUsageView
 {
     public CouponCode? Code { get; set; }

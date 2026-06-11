@@ -31,8 +31,13 @@ generic event-sourcing tropes:
   "don't use inline" categories. Lean on this as your reference whenever
   the learner asks about a tradeoff.
 - `CLAUDE.md` — the team's slice-file conventions (one-file-per-slice,
-  no MediatR, no controllers). Useful if the learner wants to write
-  their own slice at the end.
+  no MediatR, no controllers) and the **Marten 9 source-generation rules**
+  (`partial` projections, `[BoundaryAggregate]` DCB views). Useful if the
+  learner wants to write their own slice at the end.
+- `docs/UPGRADE-marten9-wolverine6.md` — what the Marten 9 / Wolverine 6
+  upgrade required. Read this so you can explain *why* the projections are
+  `partial` and the DCB views carry `[BoundaryAggregate]` if a learner asks —
+  these are runtime-only requirements the compiler never flags.
 
 Don't recite these to the learner — read them yourself so you can answer
 follow-ups confidently.
@@ -254,6 +259,17 @@ Read the comments. Walk through:
 Open [`CartShop.Core/Domain/InventoryView.cs`](CartShop.Core/Domain/InventoryView.cs).
 Show the Apply methods and the bookkeeping table in the doc comment.
 
+Point out the `[BoundaryAggregate]` attribute on the class. In **Marten 9**,
+`Apply` methods are dispatched by a compile-time source generator with no
+runtime fallback. This view is identity-less (keyed by the `Sku` tag, no `Id`)
+and is never registered as a projection, so the generator can't find it unless
+told — `[BoundaryAggregate]` is that explicit opt-in, and the `Sku` tag is
+coupled to it in `Initialization.cs` via `.ForAggregate<InventoryView>()`.
+Without both, `FetchForWritingByTags<InventoryView>` throws
+`InvalidProjectionException` at request time. (See
+[`docs/UPGRADE-marten9-wolverine6.md`](docs/UPGRADE-marten9-wolverine6.md) if
+the learner asks why.)
+
 **Run the concurrent race demo** from the README ("Concurrent race —
 the harder case" section). Two backgrounded curls, one stock unit. One
 wins, one gets 409. That's the boundary firing.
@@ -286,7 +302,9 @@ been used yet?"). Same primitive, different invariant shape.
 **Quiz:** "What two value types are registered as DCB tag types in
 `Initialization.cs`?" *(Answer: `Sku` and `CouponCode`. Any event
 carrying one of these properties gets auto-tagged and participates in
-the matching tag query.)*
+the matching tag query.)* In Marten 9 each registration also names the
+view it feeds — `RegisterTagType<Sku>().ForAggregate<InventoryView>()` —
+which is what lets the source generator emit the view's dispatcher.
 
 ## Step 8 — One event, multiple boundaries
 
@@ -344,6 +362,13 @@ and walk through the projection registrations one by one:
    projection — built on demand in
    [`Feature/Cart/Queries/CartTimeline/Handler.cs`](CartShop.Core/Feature/Cart/Queries/CartTimeline/Handler.cs)
    via `FetchStreamAsync`. Nothing stored.
+
+Note the `partial` keyword on `OpenCartByCustomerProjection` and
+`SalesByDayProjection`. In **Marten 9** a projection subclass with
+`Apply`/`Create` convention methods must be `partial` so the compile-time
+source generator can emit its dispatcher — without it the host throws
+`InvalidProjectionException` at startup. `CartAggregate` (registered via
+`Snapshot<T>`) is self-aggregating and needs no `partial`.
 
 Open [`docs/PATTERNS.md`](docs/PATTERNS.md) and read the four-step
 decision rule together. The five "don't use inline" categories at the
