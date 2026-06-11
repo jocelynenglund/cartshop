@@ -45,11 +45,42 @@ First time also: `cd cart-shop-web && npm install`.
   enforcing invariants, or `session.LoadAsync<CartAggregate>(id)` when the
   inline projection is sufficient.
 - For invariants spanning multiple streams (e.g. cross-cart inventory), use
-  the DCB pattern: register a tag type, wrap events as
-  `new Event<T>(raw).AddTag(tagValue)`, and `FetchForWritingByTags<View>(query)`
-  inside the slice. The `SaveChangesAsync` call enforces the boundary.
+  the DCB pattern: register the tag type **coupled to its view**
+  (`opts.Events.RegisterTagType<Sku>().ForAggregate<InventoryView>()`), wrap
+  events as `new Event<T>(raw).AddTag(tagValue)`, and
+  `FetchForWritingByTags<View>(query)` inside the slice. The
+  `SaveChangesAsync` call enforces the boundary.
 - Aspire connection name lives in `Program.cs` and `AppHost.cs` — keep them in
   sync if renaming.
+
+## Marten 9 source generation (read before adding an aggregate or DCB view)
+
+Marten 9 removed runtime code generation. Every type with `Apply` / `Create` /
+`ShouldDelete` convention methods is dispatched by a **compile-time source
+generator** (`JasperFx.Events.SourceGenerator`), with **no runtime fallback** —
+a missing dispatcher throws `InvalidProjectionException`, and it only surfaces
+at runtime (startup for registered projections, request time for DCB views),
+never at compile time. Three rules keep you out of that trap:
+
+1. **Convention-method projection subclasses must be `partial`.** A
+   `SingleStreamProjection<T>` / `MultiStreamProjection<T>` subclass with
+   `Apply`/`Create`/`ShouldDelete` methods (e.g. `OpenCartByCustomerProjection`,
+   `SalesByDayProjection`) needs `partial` so the generator can emit the other
+   half of the class. A self-aggregating type registered via `Snapshot<T>`
+   (e.g. `CartAggregate`) does **not** need `partial`.
+2. **DCB view aggregates must be discoverable by the generator.** A plain
+   view used only through `FetchForWritingByTags<T>` / `AggregateByTagsAsync<T>`
+   (e.g. `InventoryView`, `CouponUsageView`) is never registered as a
+   projection, so the generator can't see it unless you tell it. Mark
+   identity-less views (no `Id`) with `[BoundaryAggregate]`
+   (`JasperFx.Events.Aggregation`) **and** couple the tag to the view with
+   `RegisterTagType<Tag>().ForAggregate<View>()`.
+3. **Wolverine handlers** rely on the same codegen extraction: the host project
+   references `WolverineFx.RuntimeCompilation` so `TypeLoadMode.Dynamic` keeps
+   working. Don't remove it without switching to static codegen.
+
+See [`docs/UPGRADE-marten9-wolverine6.md`](docs/UPGRADE-marten9-wolverine6.md)
+for the full breaking-change ledger from the Marten 8 / Wolverine 5 upgrade.
 
 ## Frontend mirror
 

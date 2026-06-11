@@ -54,7 +54,16 @@ Two different shapes of invariant in the repo, both using the same primitive:
 
 → **Numeric balance** — [`Domain/InventoryView.cs`](../CartShop.Core/Domain/InventoryView.cs) + [`Feature/Cart/Commands/AddItem/Handler.cs`](../CartShop.Core/Feature/Cart/Commands/AddItem/Handler.cs) (reserved ≤ stock across every cart)
 → **One-shot claim** — [`Domain/CouponUsageView.cs`](../CartShop.Core/Domain/CouponUsageView.cs) + [`Feature/Cart/Commands/ApplyCoupon/Handler.cs`](../CartShop.Core/Feature/Cart/Commands/ApplyCoupon/Handler.cs) (coupon code applied at most once)
-→ [`Initialization.cs`](../CartShop.Core/Initialization.cs) — `RegisterTagType<Sku>()`, `RegisterTagType<CouponCode>()`
+→ [`Initialization.cs`](../CartShop.Core/Initialization.cs) — `RegisterTagType<Sku>().ForAggregate<InventoryView>()`, `RegisterTagType<CouponCode>().ForAggregate<CouponUsageView>()`
+
+> **Marten 9 note.** A DCB view (`InventoryView`, `CouponUsageView`) is a plain
+> self-aggregating class used only through `FetchForWritingByTags<T>`. Because
+> it's never registered as a projection, Marten 9's compile-time source
+> generator can't see it — so identity-less views are marked
+> `[BoundaryAggregate]` (`JasperFx.Events.Aggregation`) and the tag is coupled
+> to the view via `.ForAggregate<T>()`. Without both, the DCB read throws
+> `InvalidProjectionException` at request time. See
+> [`UPGRADE-marten9-wolverine6.md`](UPGRADE-marten9-wolverine6.md).
 
 #### Without DCB — what would this look like?
 
@@ -123,6 +132,13 @@ opts.Projections.Add<SalesByDayProjection>(ProjectionLifecycle.Async);
 `Snapshot<T>` is sugar for a `SingleStreamProjection<T>` where the
 Apply methods live on the aggregate itself. The two `Add<...>` calls are the
 general form.
+
+> **Marten 9 note.** `OpenCartByCustomerProjection` and `SalesByDayProjection`
+> are declared `partial` — Marten 9 dispatches their `Apply`/`Create` methods
+> via a compile-time source generator that emits the other half of the class.
+> `CartAggregate` (registered via `Snapshot<T>`) is self-aggregating and needs
+> no `partial`. Omitting `partial` on a convention-method projection subclass
+> throws `InvalidProjectionException` at host startup.
 
 ### Decision rule
 

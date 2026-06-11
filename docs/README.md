@@ -9,6 +9,7 @@ Where this repo's event-model lives and how to view and update it.
 | [`event-model.png`](event-model.png) | The rendered diagram embedded in the root README. Re-export after canvas edits. |
 | [`CartShop_DCB_Inventory-2026-05-14.json`](CartShop_DCB_Inventory-2026-05-14.json) | Current Nebulit canvas source. Import this into the canvas to view/edit. |
 | [`PATTERNS.md`](PATTERNS.md) | Patterns catalog (slices, DCB, projection lifecycles, the five "don't use inline" categories). |
+| [`UPGRADE-marten9-wolverine6.md`](UPGRADE-marten9-wolverine6.md) | What the Marten 8→9 / Wolverine 5→6 upgrade required — the runtime-only breaking changes (`partial` projections, `[BoundaryAggregate]` DCB views, Wolverine runtime codegen). |
 
 ## Viewing the model
 
