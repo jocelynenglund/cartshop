@@ -62,8 +62,13 @@ public static class Initialization
                 // with one of these properties is then automatically tagged and
                 // participates in cross-stream consistency queries (see AddItem
                 // and ApplyCoupon slices).
-                opts.Events.RegisterTagType<Sku>();
-                opts.Events.RegisterTagType<CouponCode>();
+                // .ForAggregate<T>() couples each tag to the boundary view it
+                // feeds (Marten 9). It tells the compile-time source generator
+                // which identity-less [BoundaryAggregate] to emit a dispatcher
+                // for, so FetchForWritingByTags<T> / AggregateByTagsAsync<T>
+                // can fold the tagged events into the view.
+                opts.Events.RegisterTagType<Sku>().ForAggregate<InventoryView>();
+                opts.Events.RegisterTagType<CouponCode>().ForAggregate<CouponUsageView>();
 
                 return opts;
             })

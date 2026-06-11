@@ -1,4 +1,5 @@
 using CartShop.Events;
+using JasperFx.Events.Aggregation;
 
 namespace CartShop.Core.Domain;
 
@@ -30,6 +31,13 @@ public sealed class InsufficientStock(string sku, int requested, int available)
 // CartSubmitted is per-cart and per-Sku because the cart can hold multiple
 // SKUs. The SubmitCart handler tags the CartSubmitted event with every Sku
 // in the cart so each SKU's DCB fold sees the same event.
+//
+// [BoundaryAggregate]: Marten 9 dispatches Apply methods via a compile-time
+// source generator. This view is identity-less (keyed by the Sku tag, no Id
+// property), so it needs this explicit marker for the generator to emit a
+// dispatcher — without it FetchForWritingByTags<InventoryView> throws
+// InvalidProjectionException. The Sku tag is wired to it in Initialization.
+[BoundaryAggregate]
 public class InventoryView
 {
     public Sku? Sku { get; set; }
